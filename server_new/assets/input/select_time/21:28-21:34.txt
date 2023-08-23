@@ -1,0 +1,17 @@
+I have a dataset that contains multiple regions, and each region has some messages that must be published in that region and some semantically relevant messages. Based on those messages, I need you to summarize an event story for each region. You can try to figure out when and where the event is. The output format:
+      {
+          "Events": [
+              {
+              "Event": short title,
+              "Location": "",
+              "Time": "",
+              "Messages": [],
+              "Summary": ""
+              }
+          ]
+      })
+ At the end of your answer, as each event may consist of one or more messages, you should use a list (e,g.,["1", "2",...]) to list the "ID" of the Messages. Use the messages as a source of facts, and do not engage in unfounded speculation. Event Title no more than 4 words. "Location" might be empty but "Summary" should not be empty. "Summary" no more than 20 words. Do not add other sentences.
+Event1:
+ datetime,message,ID
+21:30:10,misdemeanor assault-in progress,4046
+ 

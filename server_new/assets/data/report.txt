@@ -1,0 +1,87 @@
+,message,ID
+17:18:00,vehicle accident-report,235
+16,VEHICLE ACCIDENT-REPORT,235
+18:10:02,vandalism-report,839
+18:40:00,possible fire-report,1124
+84,POSSIBLE FIRE-REPORT,1124
+18:41:00,reports coming  in of a building fire at achilleos & madeg. #hi,1131
+18:42:00,rt @homelandilluminations reports coming  in of a building fire at achilleos & madeg. #hi,1148
+18:44:22,building fire reported in east abila police and fire dispatched #abila #centralbulletin,1193
+18:45:00,staff reporter en route to fire at madeg. reports of fire trucks on site. #hi,1212
+95,Fire trucks are arriving at the dancing dolphin #abilaFire,1214
+18:45:00,#abilafire - mass casualties reported. smad.co.kronos/b39x02r,1221
+18:46:00,rt @homelandilluminations staff reporter en route to fire at madeg. reports of fire trucks on site. #hi,1261
+18:46:21,fire officials report they do not yet know if apartment is currently occupied. #hi,1278
+18:47:00,police report the building is being searched for occupants. #hi,1299
+18:48:00,rt @homelandilluminations police report the building is being searched for occupants. #hi,1355
+18:50:21,reports that the top three floors are under renovation @dancingdolphin #abilapost,1409
+18:50:21,residents report top floors of apartments were unoccupied. #hi,1410
+113,Oh man they are evacuating the nearby buildings #abilafire,1524
+18:59:34,firemen report they are rescuing one resident trapped on upper floor. #hi,1588
+19:00:00,residents report no one lived on floors 4-6. #hi,1595
+19:00:34,rt @homelandilluminations firemen report they are rescuing one resident trapped on upper floor. #hi,1610
+19:02:00,rt @homelandilluminations residents report no one lived on floors 4-6. #hi,1627
+19:10:00,more fire trucks at scene.  officials report fire is not under control. #hi,1757
+19:18:34,vehicle accident - report,1867
+19:19:00,abila police department reports a car hit on souliou street #apd,1876
+19:21:01,abila police department reports a bicyclist has been struck on the 500 block of schaber between eira and edessis #apd,1923
+19:22:01,rt @abilapolicedepartment abila police department reports a bicyclist has been struck on the 500 block of schaber between eira and edessis #apd,1947
+19:35:07,abila police department reports pursuit of suspected hit and run vehicle - pursuit is headed west on egeou?#apd,2142
+19:36:00,"reports coming in about a possible hit and run, police in pursuit. #hi",2158
+19:37:00,"rt @homelandilluminations reports coming in about a possible hit and run, police in pursuit. #hi",2172
+19:38:07,rt @abilapolicedepartment abila police department reports pursuit of suspected hit and run vehicle - pursuit is headed west on egeou?#apd,2188
+19:40:22,breaking news abila police report shots fired at gelato galore near the city park.,2241
+19:40:29,abila police report shots fired at business #abila,2249
+19:40:41,reports of gun fire at gelatogalore #apd are on the scene #abilapost,2256
+19:41:00,report of gun fire at abila business #abila #centralbulletin,2268
+19:41:41,rt @abilapost reports of gun fire at gelatogalore #apd are on the scene #abilapost,2305
+19:41:45,unconfirmed reports of an officer down as result of gun fire in gelatogalore parking lot #abilapost,2312
+19:41:48,report of officer down as result of gun fire at abila business gelatogalore #abila #centralbulletin,2320
+19:41:48,witnesses report that gunmen have hostages,2321
+19:41:57,@ben some reporters have shown up - not sure whos who,2326
+19:41:57,witnesses report police holding off multiple gunmen #abila,2327
+193,OMG Abila Post says a cop got shot! what is happening??????,2332
+19:42:03,witnesses report gunmen have hostages #abila,2335
+19:42:22,rt @homelandilluminations breaking news abila police report shots fired at gelato galore near the city park.,2347
+19:42:45,rt @abilapost unconfirmed reports of an officer down as result of gun fire in gelatogalore parking lot #abilapost,2364
+19:42:57,rt @newsonlinetoday witnesses report police holding off multiple gunmen #abila,2367
+19:43:00,rt @centralbulletin report of gun fire at abila business #abila #centralbulletin,2373
+19:43:00,reports of hostage standoff at corner of ithakis and alexandrias.,2378
+19:43:03,rt @newsonlinetoday witnesses report gunmen have hostages #abila,2383
+19:43:11,report of hostage standoff #abila,2388
+19:43:48,rt @centralbulletin report of officer down as result of gun fire at abila business gelatogalore #abila #centralbulletin,2429
+19:43:57,rt @megaman @ben some reporters have shown up - not sure whos who,2431
+19:44:00,@ben sorry! its hard to report everything when yr behind a mailbox #tag,2444
+19:44:00,witnesses are reporting gunfire at corner of ithakis and alexandrias,2446
+19:44:11,apb reports more apd units en route,2454
+19:44:11,witnesses report gunfire #abila,2455
+19:45:11,rt @homelandilluminations apb reports more apd units en route,2513
+19:47:00,reporting a police event at ithakis and alexandrias. please avoid this area while we resolve the situation. #apd,2600
+19:51:00,rt @abilapolicedepartment reporting a police event at ithakis and alexandrias. please avoid this area while we resolve the situation. #apd,2685
+19:58:13,#apd reports shooter in black van has a hostage #abilapost,2789
+19:58:13,apd reports the shooter near gelato galore and general grocer has a hostage. #kronosstar,2790
+19:59:31,report: shooter has a hostage #abila #centralbulletin,2809
+20:02:13,rt @kronosstar apd reports the shooter near gelato galore and general grocer has a hostage. #kronosstar,2843
+20:03:32,a police office has been injured at the ithakis incident but is reported in stable condition. #apd,2877
+20:05:45,reports from hospital that apd officer in serious but stable condition. #kronosstar,2916
+20:06:45,rt @kronosstar reports from hospital that apd officer in serious but stable condition. #kronosstar,2935
+20:07:09,report that a fire fighter has been injured. #hi,2948
+20:10:00,narcotic activity-report,3013
+20:18:01,evacuated witness reports seeing wild driving black van being pursued by two cop cars #abilapost,3160
+20:19:01,rt @abilapost evacuated witness reports seeing wild driving black van being pursued by two cop cars #abilapost,3167
+20:19:04,witness reports hearing popping sounds later understood to be gun fire #abilapost,3170
+20:20:02,witness reports that male driver of black van tried to drive out of gelatogalore parking lot but was blocked then opened fire #abilapost,3184
+20:20:02,witnesses report there may be people trapped in nearby businesses,3186
+20:21:02,rt @abilapost witness reports that male driver of black van tried to drive out of gelatogalore parking lot but was blocked then opened fire #abilapost,3199
+20:21:04,rt @abilapost witness reports hearing popping sounds later understood to be gun fire #abilapost,3209
+20:23:02,rt @homelandilluminations witnesses report there may be people trapped in nearby businesses,3247
+20:25:00,officials report fire might be under control. #hi,3270
+20:45:00,nothing new to report: heavily armed #apd swat still in standoff with occupants of black van #abilapost,3539
+20:48:00,rt @abilapost nothing new to report: heavily armed #apd swat still in standoff with occupants of black van #abilapost,3569
+21:15:00,"fire officials still on site, report fire is under control. #hi",3815
+21:15:00,abila fire department reports fire is not yet controlled - residents should wait to return to their homes #afd,3816
+21:16:00,"rt @homelandilluminations fire officials still on site, report fire is under control. #hi",3833
+21:22:00,officials report fire is controlled.  no word yet on when nearby residents can return to their homes. #hi,3918
+21:23:00,rt @homelandilluminations officials report fire is controlled.  no word yet on when nearby residents can return to their homes. #hi,3931
+21:30:00,explosions reported from site of dancing dolphin fire. #hi,4035
+21:30:00,abila fire department reports an explosion at the dancing dolphin fire at achilleos & madeg #afd,4036

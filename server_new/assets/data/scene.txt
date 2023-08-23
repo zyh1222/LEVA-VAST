@@ -1,0 +1,59 @@
+,message,ID
+87,i think the dancin dolphin is on fire!,1151
+95,Fire trucks are arriving at the dancing dolphin #abilaFire,1214
+18:46:21,police have arrived at the fire and are helping manage the scene. #kronosstar,1277
+18:47:00,abila fire department on the scene of dancing dolphin fire at achilleos & madeg assessing the extent of the fire #afd,1300
+18:47:21,rt @kronosstar police have arrived at the fire and are helping manage the scene. #kronosstar,1329
+105,POLICE UNIT DISPATCHED-CROWD CONTROL,1363
+18:52:19,third fire truck has arrived on the scene #abilapost,1449
+18:53:10,paramedics have arrived at the scene and are treating some of the evacuated residents for smoke inhalation. #kronosstar #dancingdolphinfire,1479
+18:55:01,paramedics on the scene treating evacuated residents of @dancingdolphin #abilapost #firstresponders,1511
+111,Police are flooding the scene,1513
+18:55:01,police are flooding the scene,1513
+18:55:03,police have asked crowd to move away from scene. #hi,1521
+113,Oh man they are evacuating the nearby buildings #abilafire,1524
+18:56:03,rt @homelandilluminations police have asked crowd to move away from scene. #hi,1538
+18:56:19,rt @abilapost third fire truck has arrived on the scene #abilapost,1546
+18:57:01,rt @abilapost paramedics on the scene treating evacuated residents of @dancingdolphin #abilapost #firstresponders,1553
+19:10:00,more fire trucks at scene.  officials report fire is not under control. #hi,1757
+19:12:02,two #afd units have been called to replace the firefighters on the scene?@dancingdolphin?#abilapost,1784
+19:16:07,an additional police unit has arrived at the scene to help with crowd control. #kronosstar #dancingdolphinfire,1827
+127,Wow - more police #abilafire,1829
+19:17:07,rt @kronosstar an additional police unit has arrived at the scene to help with crowd control. #kronosstar #dancingdolphinfire,1847
+19:23:44,crime scene investigation-request,1974
+158,cops and docs just arrived.,2050
+19:40:41,reports of gun fire at gelatogalore #apd are on the scene #abilapost,2256
+19:41:41,rt @abilapost reports of gun fire at gelatogalore #apd are on the scene #abilapost,2305
+193,OMG Abila Post says a cop got shot! what is happening??????,2332
+19:42:28,government officials are telling people to please stay away from the crime scene. #kronosstar,2357
+19:43:39,ambulance arrived at scene of standoff,2417
+19:44:28,rt @kronosstar government officials are telling people to please stay away from the crime scene. #kronosstar,2469
+216,more cops have arrived someone just saw #shooting,2553
+19:46:00,additional apd units on site of hostage scene,2556
+19:46:41,additional police units have responded to shooting scene #abila #centralbulletin,2580
+19:46:41,abila police department is keeping people away from the scene of the shooting. #intnews,2581
+19:47:00,rt @homelandilluminations additional apd units on site of hostage scene,2593
+19:47:00,additional apd units have been called to the scene of the shooting near general grocer and gelato galore. #kronosstar,2599
+19:47:00,crime scene investigation request-location/person/incident of interest,2603
+19:47:39,rt @homelandilluminations ambulance arrived at scene of standoff,2608
+19:47:41,rt @centralbulletin additional police units have responded to shooting scene #abila #centralbulletin,2611
+19:48:00,rt @kronosstar additional apd units have been called to the scene of the shooting near general grocer and gelato galore. #kronosstar,2622
+19:48:41,rt @internationalnews abila police department is keeping people away from the scene of the shooting. #intnews,2636
+19:55:00,#apd swat team has arrived at the scene of the stand off at gelatogalore at alexandrias and ithakis?#abilapost,2731
+19:55:00,apd swat has arrived at the scene of the shooting at gelato galore. #kronosstar #apdswat,2732
+19:56:57,abila police swat team has arrived at scene of stand off #abila #centralbulletin,2756
+19:57:00,#apd swat on the scene! take the terrorists down boys! #pok,2761
+19:57:32,tactical units have arrived at scene,2774
+19:57:57,rt @centralbulletin abila police swat team has arrived at scene of stand off #abila #centralbulletin,2781
+19:58:00,rt @friendsofkronos #apd swat on the scene! take the terrorists down boys! #pok,2784
+19:58:13,tactical units arrived at scene #abila,2791
+19:58:32,rt @homelandilluminations tactical units have arrived at scene,2795
+20:00:13,rt @newsonlinetoday tactical units arrived at scene #abila,2830
+237,They just put him in an ambulance #hurtfirefighter #abilafire,2900
+20:07:00,crime scene investigation request-location/dwelling of interest,2944
+20:07:09,police have requested that the public stay away from the hostage scene near alexandrias & ithakis. #kronosstar,2956
+20:09:09,rt @kronosstar police have requested that the public stay away from the hostage scene near alexandrias & ithakis. #kronosstar,2991
+21:15:00,crime scene investigation-request-location/person/vehicle of interest,3824
+21:22:00,crime scene investigation-request-additional units-location/dwelling of interest,3926
+21:23:03,fire at dancing dolphin under control fire & police still on scene #abila #centralbulletin,3935
+21:24:03,rt @centralbulletin fire at dancing dolphin under control fire & police still on scene #abila #centralbulletin,3961

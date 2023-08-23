@@ -1,0 +1,7 @@
+The analyst is interested in these events you summarized: 
+ [{'Event': 'Assault in Progress', 'Location': '', 'Messages': [4046], 'Summary': 'Misdemeanor assault reported at 21:30:10.', 'Time': '21:30:10'}]. 
+By processing the messages supporting above events, we build a graph by extrating tags, person, organizations and locations. Now I need you to analyze the below messages data and graph data to find nodes in the graph related to the events above. For each event, find the corresponding message according to its id as the supplementary information for you to understand this event, and then find out the id of nodes related to this event according to the node name from graph data. The output format: {"Related_nodes":[{"Event": Event title in above list,"nodeID":},{"Event":,"nodeID":}]}. Do not add other sentences.
+ Messages data: 
+[[{'ID': 4046, 'message': 'MISDEMEANOR ASSAULT-IN PROGRESS'}]]
+ Graph data:
+[{'name': '#AFD', 'id': 1}, {'name': '#AFDHeroes', 'id': 2}, {'name': '#Abila', 'id': 8}, {'name': '#CentralBulletin', 'id': 15}, {'name': '#DancingDolphinFire', 'id': 16}, {'name': '#HI', 'id': 25}, {'name': '#KronosStar', 'id': 30}, {'name': '#POKRally', 'id': 35}, {'name': 'AFD', 'id': 198}, {'name': 'Abila Fire Department', 'id': 207}, {'name': 'Achilleos Madeg', 'id': 218}, {'name': 'Dancing Dolphin', 'id': 237}, {'name': 'Dolphin', 'id': 243}]

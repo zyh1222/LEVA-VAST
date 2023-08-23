@@ -1,0 +1,57 @@
+I have a dataset that contains multiple regions, and each region has some messages that must be published in that region and some semantically relevant messages. Based on those messages, I need you to summarize an event story for each region. You can try to figure out when and where the event is. The output format:
+      {
+          "Events": [
+              {
+              "Event": short title,
+              "Location": "",
+              "Time": "",
+              "Messages": [],
+              "Summary": ""
+              }
+          ]
+      })
+ At the end of your answer, as each event may consist of one or more messages, you should use a list (e,g.,["1", "2",...]) to list the "ID" of the Messages. Use the messages as a source of facts, and do not engage in unfounded speculation. Event Title no more than 4 words. "Location" might be empty but "Summary" should not be empty. "Summary" no more than 20 words. Do not add other sentences.
+Event1:
+ datetime,message,ID
+19:19:00,dude! someone just totaly hit a car on souliou and took off  #jerkdrivers,1877
+19:20:00,wow! crazy driver! hopefully everyone is ok!,1899
+19:21:01,a bicyclist has been hit on the 500 block of schaber near katerina's cafe and @brew'vebeenserved #abilapost,1921
+19:21:01,oh no!! that crazy driver hit a guy on a bike outside our shop!!,1924
+19:21:38,free coffee to anyone who caught the license plate of that black van! #jerkdrivers,1930
+19:21:38,can't believe this place sometimes. people are so inconsiderate. #jerkdrivers,1931
+19:21:38,felony hit & run-in progress-with injury,1932
+19:22:00,omg!!!!!!! some derp in a?balck?van just?hit a guy on a bike!!!!!,1942
+19:22:00,omg! a van just hit a guy on a bike.,1943
+19:23:00,and left!!!!!!,1960
+19:23:00,fire/medics dispatched-pedestrian hit & run,1961
+19:23:44,crime scene investigation-request,1974
+19:24:18,some guy just got hit by this crazy driver - he's messed up,1985
+19:24:38,rt @brewvebeenserved free coffee to anyone who caught the license plate of that black van! #jerkdrivers,1990
+19:25:00,i called 555. got a license haha to the derp!,2007
+19:25:00,this is the first time anyone has been injured near our store! it's usually a very safe neighborhood! #stopby,2008
+19:25:08,"poor guy on bike appears to be ok, just shaken.",2017
+19:26:13,"bike is totally trashed.? looked like a nice one, too.?",2032
+19:26:55,"titanium frame, carbon wheels. guy's gonna be pissed when he gets over being scared.",2040
+19:27:00,cops and docs just arrived.,2050
+ Event2:
+ datetime,message,ID
+19:18:34,vehicle accident - report,1867
+19:19:00,vehicle accident - no or unknown injuries,1878
+19:20:00,2 fire trucks have arrived with fresh fire figthers to replace the weary early arrivals #afd #heroes #abilapost,1892
+19:20:00,additional fire trucks arrive. fire still out of control. #hi,1893
+19:20:00,more fire trucks are arriving this is really bad,1895
+19:21:00,rt @abilapost 2 fire trucks have arrived with fresh fire figthers to replace the weary early arrivals #afd #heroes #abilapost,1916
+19:21:00,rt @dangermice more fire trucks are arriving this is really bad,1919
+19:22:00,abila fire department announces expansion of evacuation area #afd,1940
+19:22:00,they are announcing more evacuations not sure if i'll be able to keep seeing anything,1941
+19:25:00,rt @dangermice they are announcing more evacuations not sure if i'll be able to keep seeing anything,1997
+19:25:00,fire officials have expanded evacuation area. police are going door to door ordering residents to leave #hi,2000
+19:25:00,they must be really worried,2001
+19:25:08,#afd and #apd have announced expanding evacuation perimeter to addtional buildings #abilapost,2012
+19:26:13,expansion of evacuation perimeter in abila fire #abila #centralbulletin,2030
+19:27:00,neighborhood evacuations in dancing dolphin fire #abila #intnews,2047
+19:27:00,"they are getting ready to go house to house i""""m really worried #abilafire""""",2049
+19:27:13,rt @centralbulletin expansion of evacuation perimeter in abila fire #abila #centralbulletin,2053
+19:28:00,"rt @dangermice they are getting ready to go house to house i""""m really worried #abilafire""""",2062
+19:29:00,rt @homelandilluminations fire officials have expanded evacuation area. police are going door to door ordering residents to leave #hi,2074
+ 

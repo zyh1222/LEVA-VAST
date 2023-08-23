@@ -1,0 +1,7 @@
+datetime,message,ID
+21:15:00,a woman is out of the passenger side van she has her hands up is it over?,3822
+21:22:00,#apd have still not released names of suspects arrested at stand off #abilapost,3922
+21:23:03,names of suspects arrested at stand off not released yet #abila #centralbulletin,3939
+21:23:34,suspects? terrorists names have not been released #pok,3948
+21:25:00,suspicious subject/circumstances-in progress,3983
+21:30:10,misdemeanor assault-in progress,4046

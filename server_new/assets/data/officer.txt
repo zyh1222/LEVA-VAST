@@ -1,0 +1,35 @@
+,message,ID
+111,Police are flooding the scene,1513
+113,Oh man they are evacuating the nearby buildings #abilafire,1524
+127,Wow - more police #abilafire,1829
+19:36:00,if in the vicinity of achilleos & madeg please evacuate donot wait for fire or police officers #abilapost,2152
+19:37:00,rt @abilapost if in the vicinity of achilleos & madeg please evacuate donot wait for fire or police officers #abilapost,2168
+180,i think a cop got shot! hes down?n might be dead,2260
+19:41:45,unconfirmed reports of an officer down as result of gun fire in gelatogalore parking lot #abilapost,2312
+19:41:45,shots fired at gelato galore. police officer is down. #kronosstar,2313
+19:41:48,report of officer down as result of gun fire at abila business gelatogalore #abila #centralbulletin,2320
+19:41:57,fire/medics needed-officer down,2328
+192,FIRE/MEDICS NEEDED-OFFICER DOWN,2328
+193,OMG Abila Post says a cop got shot! what is happening??????,2332
+19:42:22,breaking news in abila! shots fired at gelato galore. police officer is down. #intnews,2352
+19:42:45,rt @abilapost unconfirmed reports of an officer down as result of gun fire in gelatogalore parking lot #abilapost,2364
+19:42:45,rt @kronosstar shots fired at gelato galore. police officer is down. #kronosstar,2366
+19:43:22,#apd officer has been shot by the driver of a black van #abilapost,2395
+19:43:37,dire emergency/police needed-officer down-send additional units,2415
+203,DIRE EMERGENCY/POLICE NEEDED-OFFICER DOWN-SEND ADDITIONAL UNITS,2415
+19:43:46,wounded officer being evacuated,2426
+19:43:48,rt @centralbulletin report of officer down as result of gun fire at abila business gelatogalore #abila #centralbulletin,2429
+19:43:57,ambulance on it sway to gleatogalore shooting police officer shot #pok,2433
+19:43:57,officer has been shot ambulance dispatched to gelatogalore shooting #abila #centralbulletin,2436
+19:44:00,prayers for the injured police officer and his family,2445
+19:45:57,rt @centralbulletin officer has been shot ambulance dispatched to gelatogalore shooting #abila #centralbulletin,2547
+216,more cops have arrived someone just saw #shooting,2553
+19:48:00,rt @praise111 prayers for the injured police officer and his family,2616
+19:49:41,ambulance has arrived for the wounded #apd officer - hope all is well #abilapost,2665
+223,ambulance has arrived hopefully getting the cop to the hospital fast praying hes OK #shooting,2673
+19:50:00,ambulance has arrived for wounded officer #abila #centralbulletin,2675
+19:50:41,rt @abilapost ambulance has arrived for the wounded #apd officer - hope all is well #abilapost,2683
+19:51:13,abila post says police officer is wounded not sure if i trust that #pok #copkiller,2689
+20:05:45,reports from hospital that apd officer in serious but stable condition. #kronosstar,2916
+20:06:45,rt @kronosstar reports from hospital that apd officer in serious but stable condition. #kronosstar,2935
+304,looks like it ended peaceful after the shots at first hope that cop is OK,3924

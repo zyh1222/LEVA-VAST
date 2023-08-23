@@ -1,0 +1,4 @@
+datetime,message,ID
+19:10:00,rt @kronosstar pok rally ends in a concert by the band viktor-e.? the crowd is calmer than usual for a pok rally but police remain vigilant. #kronosstar,1754
+19:10:00,gelatogalore so so good!,1764
+19:15:00,looks like im missing some viktor-e! too bad gelatogalore didnt have a food stand at the rally #pok,1819

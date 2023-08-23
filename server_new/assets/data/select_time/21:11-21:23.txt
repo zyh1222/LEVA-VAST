@@ -1,0 +1,9 @@
+datetime,message,ID
+21:14:47,police are taking two van guys into waiting car #tag,3811
+21:15:00,a woman is out of the passenger side van she has her hands up is it over?,3822
+21:15:00,crime scene investigation-request-location/person/vehicle of interest,3824
+21:17:11,stand off ends peacefully?at gelato galore #apd has arrested 2 suspects and at least 2 hostages rescued & safe #abilapost,3851
+21:17:11,i think there giving up 2 people hands up got out of the van guy & girl,3852
+21:18:14,stand off ends peacefully 2 arrested and 2 hostages saved #abila #centralbulletin,3863
+21:21:11,a man and woman have surrended to police two more people have left the van i think there hostages,3906
+21:22:00,looks like it ended peaceful after the shots at first hope that cop is ok,3924

@@ -1,0 +1,87 @@
+{
+    "dashboardInfo": {
+        "dashboardName": "Public safety social media analysis",
+        "viewNumber": 4
+    },
+    "viewInfo": {
+        "viewStyleInfo": [
+            {
+                "viewName": "Timeline",
+                "markType": "area",
+                "encoding": {
+                    "x": [
+                        "time"
+                    ],
+                    "y": [
+                        "mbdata", "ccdata"
+                    ],
+                    "color": "Message Type",
+                    "size": "frequency"
+                }
+            },
+            {
+                "viewName": "Risk Map",
+                "markType": "hexigon",
+                "encoding": {
+                    "x": [
+                        "Latitude",
+                        "Latitude"
+                    ],
+                    "y": [
+                        "Longitude"
+                    ],
+                    "color": [
+                        "Risk Level"
+                    ],
+                    "lod": "Risk Level"
+                },
+                "tooltip": ["Risk Level", "Messages"]
+            },
+            {
+                "viewName": "Graph",
+                "markType": "node-link",
+                "encoding": [{
+                    "nodes": "Entities",
+                    "type": "circle",
+                    "color": ["tag", "person", "organization", "location"],
+                    "size": "degree"
+                },
+                  {"link": "Co-occurrence frequency",
+                    "type": "stroke",
+                    "color": null,
+                    "size": "Frequency"
+                }
+                ]
+            },
+            {
+                "viewName": "Messages",
+                "markType": "Customized Card",
+                "encoding": [{
+                    "title": "time",
+                    "type": "text"
+                },
+                  {"content": "Message",
+                    "type": "text"
+                },
+                  {"symbol-upper": "Sentiment",
+                    "type": "circle",
+                    "color": "Negative sentiment degree"
+                },
+                  {"symbol-down": "Objectivity degree",
+                    "type": "circle",
+                    "color": "Objectivity degree"
+                }
+                ]
+            }
+        ]
+    },
+    "viewCoordinationInfo": [
+        {
+            "viewName": "Timeline",
+            "coordinationViewName": [
+                "Risk Map","Graph","Messages"
+            ],
+            "coordinationType": "filter"
+        }
+    ]
+}

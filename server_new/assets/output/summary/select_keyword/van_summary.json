@@ -1,0 +1,86 @@
+{
+    "Story Title": "The Black Van Standoff",
+    "Subevents": [
+        {
+            "Subevent": "Hit and Run",
+            "Location": "",
+            "Time": "19:20:00 - 19:23:54",
+            "Messages": [
+                1898,
+                1930,
+                1942,
+                1943,
+                1975,
+                2005
+            ],
+            "Summary": "A black van hits a car and a person on a bike, sparking a hit and run incident. The police issue a description of the van with a partial license plate."
+        },
+        {
+            "Subevent": "Pulled Over",
+            "Location": "Parking Lot",
+            "Time": "19:40:00 - 19:40:29",
+            "Messages": [
+                2228,
+                2231,
+                2232,
+                2240,
+                2247
+            ],
+            "Summary": "The black van gets pulled over in a parking lot, leading to a confrontation with the police. The van attempts to escape but is blocked by a cop car."
+        },
+        {
+            "Subevent": "Hostage Situation",
+            "Location": "Unknown",
+            "Time": "19:58:13 - 20:10:38",
+            "Messages": [
+                2786,
+                2787,
+                2788,
+                2789,
+                2793,
+                2807,
+                2808,
+                2851,
+                2860
+            ],
+            "Summary": "The situation escalates into a hostage scenario, with reports suggesting that the van occupants have captives. Negotiations between the police and the van occupant continue."
+        },
+        {
+            "Subevent": "Standoff",
+            "Location": "",
+            "Time": "20:16:14 - 21:14:47",
+            "Messages": [
+                3140,
+                3158,
+                3159,
+                3160,
+                3181,
+                3184,
+                3206,
+                3221,
+                3233,
+                3249,
+                3305,
+                3351,
+                3366,
+                3384,
+                3539,
+                3688,
+                3691,
+                3692,
+                3694,
+                3706,
+                3708,
+                3709,
+                3739,
+                3796,
+                3805,
+                3811,
+                3822,
+                3852,
+                3906
+            ],
+            "Summary": "A standoff between the police and the van occupants ensues, with intense negotiations and moments of potential violence. Eventually, all the occupants surrender and are taken into custody."
+        }
+    ]
+}

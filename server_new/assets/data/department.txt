@@ -1,0 +1,45 @@
+,message,ID
+0,KEEP THE PEACE-CROWD CONTROL/ABILA CITY PARK,9
+18:42:10,abila fire department has dispatched 2 units to a possible fire at the dancing dolphin apartment complex. #kronosstar,1149
+18:42:10,abila fire department has dispatched two fire trucks to the dancing?dolphin apartments at?achilleos & madeg #afd?,1150
+87,i think the dancin dolphin is on fire!,1151
+18:43:04,made it out -- no problems. but wish the fire department would get here.,1168
+18:44:10,rt @kronosstar abila fire department has dispatched 2 units to a possible fire at the dancing dolphin apartment complex. #kronosstar,1187
+18:44:22,abila police department has sent two units to the fire at the dancing dolphin apartments. #kronosstar,1192
+95,Fire trucks are arriving at the dancing dolphin #abilaFire,1214
+18:45:22,rt @kronosstar abila police department has sent two units to the fire at the dancing dolphin apartments. #kronosstar,1226
+18:46:10,rt @abilafiredept abila fire department has dispatched two fire trucks to the dancing?dolphin apartments at?achilleos & madeg #afd?,1272
+18:47:00,abila fire department on the scene of dancing dolphin fire at achilleos & madeg assessing the extent of the fire #afd,1300
+18:47:03,abila fire department has dispatched an ambulance to assist at the dancing dolphin fire. #kronosstar,1307
+18:47:09,abila fire department has dispatched an additional fire truck to dancing dolphin apartment fire #afd,1316
+18:47:31,abila fire department indicates dancing dolphin apartment is a six story structure with the bottom three stories currently occupied #afd?,1337
+18:49:03,rt @kronosstar abila fire department has dispatched an ambulance to assist at the dancing dolphin fire. #kronosstar,1388
+18:52:00,abila fire department fire truck #23 has arrived at dancing dolphin apartment #afd,1436
+18:53:10,abila fire department has ordered the evacuation of nearby buildings as a precaution for fire at achilleos & madeg?#afd,1481
+113,Oh man they are evacuating the nearby buildings #abilafire,1524
+18:56:00,rt @abilafiredept abila fire department fire truck #23 has arrived at dancing dolphin apartment #afd,1532
+19:10:00,abila fire department trucks 12 & 30 have arrived?at the dancing dolphin fire to relieve trucks 41 and 57 #afd?,1759
+19:13:00,rt @abilafiredept abila fire department trucks 12 & 30 have arrived?at the dancing dolphin fire to relieve trucks 41 and 57 #afd?,1798
+127,Wow - more police #abilafire,1829
+19:19:00,abila police department reports a car hit on souliou street #apd,1876
+132,More fire trucks are arriving this is really bad,1895
+19:21:01,abila police department reports a bicyclist has been struck on the 500 block of schaber between eira and edessis #apd,1923
+19:22:00,abila fire department announces expansion of evacuation area #afd,1940
+19:22:01,rt @abilapolicedepartment abila police department reports a bicyclist has been struck on the 500 block of schaber between eira and edessis #apd,1947
+19:23:00,abila police department releases a partial license plate number for hit and run vehicle l829 #apd,1959
+19:23:54,abila police department issues description of hit and run vehicle: a black van with partial license plate l829 #apd,1975
+19:24:00,rt @abilapolicedepartment abila police department releases a partial license plate number for hit and run vehicle l829 #apd,1980
+19:25:00,abila police department urges any witnesses of the hit and run incident on schaber between eira & edessis to contact authorities with any information #apd,2006
+19:26:00,rt @abilafiredept abila fire department announces expansion of evacuation area #afd,2024
+19:27:00,rt @abilapolicedepartment abila police department urges any witnesses of the hit and run incident on schaber between eira & edessis to contact authorities with any information #apd,2046
+157,"They are getting ready to go house to house I""""m really worried #abilafire""""",2049
+19:35:07,abila police department reports pursuit of suspected hit and run vehicle - pursuit is headed west on egeou?#apd,2142
+19:38:07,rt @abilapolicedepartment abila police department reports pursuit of suspected hit and run vehicle - pursuit is headed west on egeou?#apd,2188
+193,OMG Abila Post says a cop got shot! what is happening??????,2332
+19:46:41,abila police department is keeping people away from the scene of the shooting. #intnews,2581
+19:48:41,rt @internationalnews abila police department is keeping people away from the scene of the shooting. #intnews,2636
+237,They just put him in an ambulance #hurtfirefighter #abilafire,2900
+21:15:00,abila fire department reports fire is not yet controlled - residents should wait to return to their homes #afd,3816
+21:25:00,abila fire department urges citizens to please avoid the dancing dolphin as fire is not completely controlled #afd,3978
+21:30:00,abila fire department reports an explosion at the dancing dolphin fire at achilleos & madeg #afd,4036
+308,OMG was that an explosion ? #abilafire,4038

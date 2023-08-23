@@ -1,0 +1,9 @@
+datetime,message,ID
+19:18:34,vehicle accident - report,1867
+19:19:00,dude! someone just totaly hit a car on souliou and took off  #jerkdrivers,1877
+19:19:00,vehicle accident - no or unknown injuries,1878
+19:20:00,some moron in a black van just hit my car!,1898
+19:22:00,omg! a van just hit a guy on a bike.,1943
+19:23:54,abila police department issues description of hit and run vehicle: a black van with partial license plate l829 #apd,1975
+19:24:18,some guy just got hit by this crazy driver - he's messed up,1985
+19:25:00,anyone know a good body shop?,2004

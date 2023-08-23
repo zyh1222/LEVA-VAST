@@ -1,0 +1,4 @@
+datetime,message,ID
+19:26:55,"titanium frame, carbon wheels. guy's gonna be pissed when he gets over being scared.",2040
+19:27:00,cops and docs just arrived.,2050
+19:28:55,"rt @trapanitweets titanium frame, carbon wheels. guy's gonna be pissed when he gets over being scared.",2072

@@ -1,0 +1,30 @@
+I have a dataset that contains multiple regions, and each region has some messages that must be published in that region and some semantically relevant messages. Based on those messages, I need you to summarize an event story for each region. You can try to figure out when and where the event is. The output format:
+      {
+          "Events": [
+              {
+              "Event": short title,
+              "Location": "",
+              "Time": "",
+              "Messages": [],
+              "Summary": ""
+              }
+          ]
+      })
+ At the end of your answer, as each event may consist of one or more messages, you should use a list (e,g.,["1", "2",...]) to list the "ID" of the Messages. Use the messages as a source of facts, and do not engage in unfounded speculation. Event Title no more than 4 words. "Location" might be empty but "Summary" should not be empty. "Summary" no more than 20 words. Do not add other sentences.
+Event1:
+ datetime,message,ID
+19:16:07,wow - more police #abilafire,1829
+19:18:34,vehicle accident - report,1867
+19:19:00,vehicle accident - no or unknown injuries,1878
+19:20:00,2 fire trucks have arrived with fresh fire figthers to replace the weary early arrivals #afd #heroes #abilapost,1892
+19:20:00,more fire trucks are arriving this is really bad,1895
+19:20:00,some moron in a black van just hit my car!,1898
+ Event2:
+ datetime,message,ID
+19:17:00,"check out the new issue of arise, a magazine for people who want to take control of their destiny?#arise #pok",1845
+19:19:00,"rt @footfingers check out the new issue of arise, a magazine for people who want to take control of their destiny?#arise #pok",1874
+19:19:00,dude! someone just totaly hit a car on souliou and took off  #jerkdrivers,1877
+19:20:00,wow! crazy driver! hopefully everyone is ok!,1899
+19:20:59,felony hit & run - in progress-with injury,1913
+19:21:01,oh no!! that crazy driver hit a guy on a bike outside our shop!!,1924
+ 

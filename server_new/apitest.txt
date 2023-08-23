@@ -1,0 +1,210 @@
+Assume we have a visual analytics system; you are an assistant to help with data analysis with next-step suggestions. 
+
+User's Task: Find and understand information about multiple events (such as who where what) and how much risk they pose
+
+First, you should analyze the specification of the system to know about each view. e.g., the map view has risk level data (nominal) and messages(text) in each hexagon region. 
+Second, we have a list of functions that can be used to mine the insights( shown below). Note the parameters required to use these functions
+
+{
+    "dashboardInfo": {
+        "dashboardName": "Public safety social media analysis",
+        "viewNumber": 4
+    },
+    "viewInfo": {
+        "viewStyleInfo": [
+            {
+                "viewName": "Timeline",
+                "markType": "area",
+                "encoding": {
+                    "x": [
+                        "time"
+                    ],
+                    "y": [
+                        "mbdata", "ccdata"
+                    ],
+                    "color": "Message Type",
+                    "size": "frequency"
+                }
+            },
+            {
+                "viewName": "Risk Map",
+                "markType": "hexigon",
+                "encoding": {
+                    "x": [
+                        "Latitude",
+                        "Latitude"
+                    ],
+                    "y": [
+                        "Longitude"
+                    ],
+                    "color": [
+                        "Risk Level"
+                    ],
+                    "lod": "Risk Level"
+                } ,"tooltip": ["Risk Level", "Messages"]
+            },
+            {
+                "viewName": "Graph",
+                "markType": "node-link",
+                "encoding": [{
+                    "nodes": "Entities",
+                    "type": "circle",
+                    "color": ["tag", "person", "organization", "location"],
+                    "size": "degree"
+                },
+                  {"link": "Co-occurrence frequency",
+                    "type": "stroke",
+                    "color": null,
+                    "size": "Frequency"
+                }
+                ]
+            },
+            {
+                "viewName": "Messages",
+                "markType": "Customized Card",
+                "encoding": [{
+                    "title": "time",
+                    "type": "text"
+                },
+                  {"content": "Message",
+                    "type": "text"
+                },
+                  {"symbol-upper": "Sentiment",
+                    "type": "circle",
+                    "color": "Negative sentiment degree"
+                },
+                  {"symbol-down": "Objectivity degree",
+                    "type": "circle",
+                    "color": "Objectivity degree"
+                }
+                ]
+            }
+        ]
+    },
+    "viewCoordinationInfo": [
+        {
+            "viewName": "Timeline",
+            "coordinationViewName": [
+                "Risk Map","Graph","Messages"
+            ],
+            "coordinationType": "filter"
+        }
+    ]
+}
+
+Second, we have a list of functions that can be used to mine the insights( shown below).{
+"functions": [
+    {
+      "basic_data_type": [
+        {
+          "time_series_data": [
+            {
+              "name": "get_outstanding_period",
+              "description": "Get the outstanding time period in a time series dataset"
+            },
+            {
+              "name": "get_change_point",
+              "description": "Get the outstanding time period in a time series dataset"
+            }
+          ]
+        },
+        {
+          "numeric_data": [
+            {
+              "name": "get_outstanding_last",
+              "description": "Get the outstanding last item in a dataset"
+            },
+            {
+              "name": "get_outstanding_topn",
+              "description": "Get the top N outstanding items in a given dataset",
+              "paramters": [
+                {
+                  "name": "dataset",
+                  "type": "list",
+                  "description": "The dataset to query"
+                }
+              ],
+              "return": {
+                "name": "topn_data",
+                "type": "list",
+                "description": "A list of the top N outstandingx items"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "complex_data_type": [
+        {
+          "text_data": [
+            {
+              "name": "summarize_events",
+              "description": "Summarize the events for given region during a given time period",
+              "parameters": [
+                {
+                  "name": "topn_risk_region_data",
+                  "type": "pandas.DataFrame",
+                  "description": "top n risk level regions data, with messages and time"
+                },
+                {
+                  "name": "time_range",
+                  "type": "datetime list",
+                  "description": "The start time and end time"
+                }
+              ],
+              "return": {
+                "type": "list",
+                "description": "A list of events"
+              }
+            },
+            {
+              "name": "summarize_story",
+              "description": "when find similar events in two given periods, summarize the story of the given event"
+            },
+            {
+              "name": "find_related_messages",
+              "description": "Find the related messages in a time series dataset for each event",
+              "parameters": [
+                {
+                  "name": "events",
+                  "type": "string list",
+                  "description": "The events to query related messages, get from summarize_events"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "graph_data": [
+            {
+              "name": "find_related_nodes",
+              "description": "Find the related nodes in a graph for a given events list",
+              "paramters": [
+                {
+                  "name": "events",
+                  "type": "string list",
+                  "description": "The events to query related nodes"
+                }
+              ]
+            },
+            {
+              "name": "interpret_subgraph",
+              "description": "Deduce the data meaning of subgraph according to the original text and subgraph data"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+"viewCoordinationInfo": [
+        {
+            "viewName": "Timeline",
+            "coordinationViewName": [
+                "Risk Map","Graph","Messages"
+            ],
+            "coordinationType": "filter"
+        }
+    ]
+Now user selects a time range in Timeline View (source view).  Which views changed? You only need to consider basic data to propose questions in linked (or coordinated) views by previous coordination info. If only one view has basic data, you only propose one pair of question-function for that view.  The output format: {"question": "", "function":""}. Note the parameters are required to use these functions. You can't recommend a subsequent function without calling the previous function. Do not write other sentences.

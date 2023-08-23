@@ -1,0 +1,83 @@
+I have a dataset that contains multiple regions, and each region has some messages that must be published in that region and some semantically relevant messages. Based on those messages, I need you to summarize an event story for each region. You can try to figure out when and where the event is. The output format:
+      {
+          "Events": [
+              {
+              "Event": short title,
+              "Location": "",
+              "Time": "",
+              "Messages": [],
+              "Summary": ""
+              }
+          ]
+      })
+ At the end of your answer, as each event may consist of one or more messages, you should use a list (e,g.,["1", "2",...]) to list the "ID" of the Messages. Use the messages as a source of facts, and do not engage in unfounded speculation. Event Title no more than 4 words. "Location" might be empty but "Summary" should not be empty. "Summary" no more than 20 words. Do not add other sentences.
+Event1:
+ datetime,message,ID
+19:39:07,pursuit-continues-police units #253 and #357,2207
+19:39:40,wow! crazy driving into @gelatogalore #somebodywantgelatobad,2216
+19:40:00,wow some crazy black van just got pulled over in the parking lot - dinner & a show!,2228
+19:40:00,omg dude in a black van is shooting at the cops!  bullets everywhere.,2231
+19:40:00,cops?r right behind - whats up? think that was gunshots #crazy,2236
+19:40:41,omg there shooting there shooting!,2254
+19:40:41,i think a cop got shot! hes down?n might be dead,2260
+19:41:03,what is happening? they r right out front shooting,2273
+19:41:07,"black van faces off two cop cars, shots fired, people undercover, not moving until its under control #troubleatgelato",2275
+19:41:13,never been so scared under the table in gelatogalore cant see much just cop lights,2280
+19:41:13,nooooo! a cop just got killed - the shooter is still in the gelatogalore parking lot,2283
+19:41:33,why didnt i stay at the rally? im trapped in here the van is right outsdie the door,2298
+19:41:45,i have to see outside not knowing is killing me!,2310
+19:41:48,everyone is hiding some guy just reached up and grabbed his food who can eat in a time like this?,2317
+19:42:03,omg abila post says a cop got shot! what is happening??????,2332
+19:42:14,stupid guy is standing up looking out the windows does he want to get shot?,2344
+19:42:22,sit down pls!,2350
+19:42:28,havent heard any more shots pls no more #shooting,2354
+19:43:00,rt @protoguy omg dude in a black van is shooting at the cops!  bullets everywhere.,2370
+19:43:11,who shoots a cop? who are these maniacs?!?!,2385
+19:43:22,omg! the cop got shot and still isnt moving i cant belivef it whats happeningn?,2397
+19:43:37,somany cops i cant beleive this is happening just wanted coffee,2414
+19:43:39,im hearing more sirens i think i can get a view outside #shooting,2416
+19:44:07,"rt @megaman black van faces off two cop cars, shots fired, people undercover, not moving until its under control #troubleatgelato",2452
+19:44:23,looks like there are 3 cop cars and the black van two people in the front of van #shooting,2461
+19:44:38,putting my head back down #shooting,2477
+19:45:11,i think were trapped in here #gelatogalore #shooting,2514
+19:46:00,more cops have arrived someone just saw #shooting,2553
+19:46:00,just realized the cops shot a lot of bullets and didn't hit the van dude,2555
+19:50:00,ambulance has arrived hopefully getting the cop to the hospital fast praying hes ok #shooting,2673
+ Event2:
+ datetime,message,ID
+19:35:07,another police unit has been dispatched to help with house to house evacuation?#abilapost,2138
+19:40:00,felony assault/weapon-in progress,2237
+19:40:22,disturbance-noise,2245
+19:41:45,unconfirmed reports of an officer down as result of gun fire in gelatogalore parking lot #abilapost,2312
+19:41:48,report of officer down as result of gun fire at abila business gelatogalore #abila #centralbulletin,2320
+19:41:57,fire/medics needed-officer down,2328
+19:42:28,fire/medics needed-ambulance dispatched,2358
+19:43:37,#apd ambulance has been dispatched the gelatogalore shooting #abilapost,2412
+19:43:37,dire emergency/police needed-officer down-send additional units,2415
+19:43:57,ambulance on it sway to gleatogalore shooting police officer shot #pok,2433
+19:43:57,officer has been shot ambulance dispatched to gelatogalore shooting #abila #centralbulletin,2436
+19:44:11,police units dispatched,2457
+19:44:28,dire emergency/swat team dispatched,2472
+19:44:41,police evacuating area of shooting #abila #centralbulletin,2484
+19:45:00,an office has been wounded in the course of duty. he is in good condition. more updates later. #apd,2506
+19:45:00,the guy is screaming at the cops and waving a gun why arentt they shooting him just shot a cop,2507
+19:46:00,additional apd units on site of hostage scene,2556
+19:46:41,additional police units have responded to shooting scene #abila #centralbulletin,2580
+19:46:41,abila police department is keeping people away from the scene of the shooting. #intnews,2581
+19:49:41,ambulance has arrived for the wounded #apd officer - hope all is well #abilapost,2665
+19:50:00,ambulance has shown up for the injured cop,2674
+ Event3:
+ datetime,message,ID
+19:35:07,henri -bike guy- done talking to coppers now looking at his trashed bike.,2143
+19:35:07,going to give the biker a coffee!! he's bean served!,2144
+19:36:00,i think he's? crying.,2159
+19:39:07,rt @brewvebeenserved going to give the biker a coffee!! he's bean served!,2204
+19:39:07,coffee shop owner just gave henri a coffee - yay abila! we have nice people here.,2206
+19:39:40,except for that derp who hit henri.,2212
+19:39:40,our awesome coffee cheered him up he's ok now!!,2213
+19:40:00,abila police have cornered the erratic driver in a parking lot near the intersection of alexandrias and ithakis. shots fired. #kronosstar,2229
+19:45:00,imagine a kronos without corporate pollution then act to make it happen #pok,2501
+19:46:47,cops are leaving! cops are scared of the power of community #pokrally,2583
+19:49:00,the cops are scared of the people rising up against the system #pok,2647
+19:51:00,rt @footfingers the cops are scared of the people rising up against the system #pok,2687
+ 

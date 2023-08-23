@@ -1,0 +1,47 @@
+I have a dataset that contains multiple regions, and each region has some messages that must be published in that region and some semantically relevant messages. Based on those messages, I need you to summarize an event story for each region. You can try to figure out when and where the event is. The output format:
+      {
+          "Events": [
+              {
+              "Event": short title,
+              "Location": "",
+              "Time": "",
+              "Messages": [],
+              "Summary": ""
+              }
+          ]
+      })
+ At the end of your answer, as each event may consist of one or more messages, you should use a list (e,g.,["1", "2",...]) to list the "ID" of the Messages. Use the messages as a source of facts, and do not engage in unfounded speculation. Event Title no more than 4 words. "Location" might be empty but "Summary" should not be empty. "Summary" no more than 20 words. Do not add other sentences.
+Event1:
+ datetime,message,ID
+19:43:00,rt @protoguy omg dude in a black van is shooting at the cops!  bullets everywhere.,2370
+19:43:11,who shoots a cop? who are these maniacs?!?!,2385
+19:43:22,omg! the cop got shot and still isnt moving i cant belivef it whats happeningn?,2397
+19:43:37,somany cops i cant beleive this is happening just wanted coffee,2414
+19:43:37,dire emergency/police needed-officer down-send additional units,2415
+19:43:39,im hearing more sirens i think i can get a view outside #shooting,2416
+19:43:46,ambulance is here for the cop- wonder if he'll be okay #praying,2428
+19:43:57,ambulance on it sway to gleatogalore shooting police officer shot #pok,2433
+19:44:11,police units dispatched,2457
+19:44:23,looks like there are 3 cop cars and the black van two people in the front of van #shooting,2461
+19:44:28,dire emergency/swat team dispatched,2472
+19:44:38,putting my head back down #shooting,2477
+19:45:00,the guy is screaming at the cops and waving a gun why arentt they shooting him just shot a cop,2507
+19:45:11,i think were trapped in here #gelatogalore #shooting,2514
+19:46:00,more cops have arrived someone just saw #shooting,2553
+19:46:00,just realized the cops shot a lot of bullets and didn't hit the van dude,2555
+19:48:23,rt @truccotrucco looks like there are 3 cop cars and the black van two people in the front of van #shooting,2630
+19:50:00,ambulance has arrived hopefully getting the cop to the hospital fast praying hes ok #shooting,2673
+ Event2:
+ datetime,message,ID
+19:44:00,alarm-secure no crime,2448
+19:49:00,vehicle accident-report,2651
+ Event3:
+ datetime,message,ID
+19:43:39,disturbance-noise,2418
+19:43:46,police just told us to stay away from the area,2424
+19:44:11,i think i can hear police outside- someone tell them we're in here!,2456
+19:45:00,van dude is waving his gun and shouting at cops.  he's crazy!,2504
+19:45:00,the guy is screaming at the cops and waving a gun why arentt they shooting him just shot a cop,2507
+19:45:11,misdemeanor assault-in progress,2518
+19:46:41,abila police department is keeping people away from the scene of the shooting. #intnews,2581
+ 

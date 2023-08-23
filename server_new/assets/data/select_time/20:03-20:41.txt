@@ -1,0 +1,8 @@
+datetime,message,ID
+20:10:38,vehicle accident-report,3044
+20:18:01,evacuated witness reports seeing wild driving black van being pursued by two cop cars #abilapost,3160
+20:19:01,rt @abilapost evacuated witness reports seeing wild driving black van being pursued by two cop cars #abilapost,3167
+20:20:02,witness reports that male driver of black van tried to drive out of gelatogalore parking lot but was blocked then opened fire #abilapost,3184
+20:21:02,rt @abilapost witness reports that male driver of black van tried to drive out of gelatogalore parking lot but was blocked then opened fire #abilapost,3199
+20:28:42,traffic stop,3326
+20:35:09,subject stop,3446

@@ -1,0 +1,49 @@
+I have a dataset that contains multiple regions, and each region has some messages that must be published in that region and some semantically relevant messages. Based on those messages, I need you to summarize an event story for each region. You can try to figure out when and where the event is. The output format:
+      {
+          "Events": [
+              {
+              "Event": short title,
+              "Location": "",
+              "Time": "",
+              "Messages": [],
+              "Summary": ""
+              }
+          ]
+      })
+ At the end of your answer, as each event may consist of one or more messages, you should use a list (e,g.,["1", "2",...]) to list the "ID" of the Messages. Use the messages as a source of facts, and do not engage in unfounded speculation. Event Title no more than 4 words. "Location" might be empty but "Summary" should not be empty. "Summary" no more than 20 words. Do not add other sentences.
+Event1:
+ datetime,message,ID
+20:05:00,#apd is evacuating us #standoff,2907
+20:05:45,#apd is evacuating people from carlys coffeee across the street - arent we in the line of fire,2917
+20:06:13,i think there's a hostage - why isnt #apd doing more #standoff,2931
+20:07:09,the situation near gelato galore is believed to be a hostage situation. we are working to resolve it as quickly and safely as possible. #apd,2958
+20:09:00,rt @sofitees #apd is evacuating us #standoff,2984
+20:10:00,mom im ok cops r here dont worry im across the street but safe,3012
+20:12:00,rt @sofitees mom im ok cops r here dont worry im across the street but safe,3073
+20:13:00,its a standoff what do you know? cops dont do anything at rally they dont do anything at shooting #pok,3095
+20:13:00,should got another coffeee this is going to take a long time #standoff,3099
+20:15:01,evacuations of area businesses are under way at police standoff,3123
+20:15:01,i think they are trying to evacuate us! #standoff,3124
+20:26:02,we're free! thanks #apd #standoff,3288
+20:32:52,i wish this was over i can barely even type anthing #standoff,3382
+20:33:49,why dont the cops do anything? save us pls! #apd #standoff,3402
+20:34:00,arent swat suppposed to be the tough buys that swoop in & save the day? what are they waiting for? were trapped!,3413
+20:35:02,why is this taking so long? im starting to feel sick #standoff,3433
+20:36:56,im sick im tired just wan to run out of here!,3468
+20:40:00,just poked my head up looks like hundred of people outside #standoff,3503
+ Event2:
+ datetime,message,ID
+20:04:11,rt @friendsofkronos apd stop the terrorists before they cut the hostages head off! #pok,2885
+20:07:09,do you trust your government? #pok,2952
+20:30:00,we suport the pok's fight for the people of kronos #pok #apa,3341
+20:31:02,narcotic activity-report,3360
+ Event3:
+ datetime,message,ID
+20:10:38,vehicle accident-report,3044
+20:18:01,evacuated witness reports seeing wild driving black van being pursued by two cop cars #abilapost,3160
+20:19:01,rt @abilapost evacuated witness reports seeing wild driving black van being pursued by two cop cars #abilapost,3167
+20:20:02,witness reports that male driver of black van tried to drive out of gelatogalore parking lot but was blocked then opened fire #abilapost,3184
+20:21:02,rt @abilapost witness reports that male driver of black van tried to drive out of gelatogalore parking lot but was blocked then opened fire #abilapost,3199
+20:28:42,traffic stop,3326
+20:35:09,subject stop,3446
+ 

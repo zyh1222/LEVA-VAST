@@ -1,0 +1,8 @@
+datetime,message,ID
+19:43:39,disturbance-noise,2418
+19:43:46,police just told us to stay away from the area,2424
+19:44:11,i think i can hear police outside- someone tell them we're in here!,2456
+19:45:00,van dude is waving his gun and shouting at cops.  he's crazy!,2504
+19:45:00,the guy is screaming at the cops and waving a gun why arentt they shooting him just shot a cop,2507
+19:45:11,misdemeanor assault-in progress,2518
+19:46:41,abila police department is keeping people away from the scene of the shooting. #intnews,2581

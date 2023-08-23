@@ -1,0 +1,47 @@
+{
+"Story Title": "The Black Van Standoff",
+"Subevents": [
+{
+"Subevent": "Hit and Run",
+"Location": "",
+"Time": "19:20:00",
+"Messages": [1898,1930],
+"Summary": "A black van hits a car in a hit and run incident. "
+},
+{
+"Subevent": "Van Hits a Biker",
+"Location": "",
+"Time": "19:22:00",
+"Messages": [1942, 1943],
+"Summary": "The same black van then hits a person riding a bike."
+},
+{
+"Subevent": "Standoff Begins",
+"Location": "Gelato Galore Parking Lot",
+"Time": "19:40:00",
+"Messages": [2231, 2232, 2240, 2247],
+"Summary": "The situation escalates as the black van starts shooting at the police, leading to a standoff in the Gelato Galore parking lot."
+},
+{
+"Subevent": "Hostage Situation",
+"Location": "Gelato Galore Parking Lot",
+"Time": "19:58:13",
+"Messages": [2787, 2789, 2793, 2807, 2808, 2851, 2860, 2970],
+"Summary": "The black van is confirmed to have hostages inside, and negotiations begin between the police and the van's occupants."
+},
+{
+"Subevent": "Negotiation and Standoff Continues",
+"Location": "Gelato Galore Parking Lot",
+"Time": "20:18:01",
+"Messages": [3158, 3159, 3160, 3181, 3184, 3206, 3221, 3233, 3249, 3305, 3351, 3366, 3384, 3539],
+"Summary": "The standoff continues, with negotiations ongoing as the police try to resolve the situation peacefully."
+},
+{
+"Subevent": "End of Standoff",
+"Location": "Gelato Galore Parking Lot",
+"Time": "21:13:00",
+"Messages": [3796, 3805, 3811, 3822, 3852, 3906],
+"Summary": "The standoff finally comes to an end as the van occupants surrender to the police. Several people exit the van, some of whom were likely hostages."
+}
+]
+}

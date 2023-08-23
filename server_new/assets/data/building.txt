@@ -1,0 +1,77 @@
+,message,ID
+17:16:00,they've been ripping up our building for weeks now - when will it stop?  #nopeace,200
+18:41:00,reports coming  in of a building fire at achilleos & madeg. #hi,1131
+18:42:00,rt @homelandilluminations reports coming  in of a building fire at achilleos & madeg. #hi,1148
+18:43:04,building fire at achilleos & madeg in abila #newsonline,1167
+91,ALL UNITS BROADCAST-BUILDING FIRE,1171
+18:43:21,all units broadcast-building fire,1171
+18:44:00,building fire at achilleos and madeg. responders dispatched. #hi,1182
+18:44:22,building fire reported in east abila police and fire dispatched #abila #centralbulletin,1193
+18:45:00,rt @homelandilluminations building fire at achilleos and madeg. responders dispatched. #hi,1209
+95,Fire trucks are arriving at the dancing dolphin #abilaFire,1214
+18:45:22,buildings on fire down the street #gladitsnotmyhouse,1230
+18:45:31,homeland illumation on site.  flames visible from second floor of six floor apartment building. #hi,1237
+18:46:52,just received word from witnesses that building is occupied. #hi,1288
+18:47:00,police report the building is being searched for occupants. #hi,1299
+18:47:03,several residents are exiting building. #hi,1308
+18:47:09,unclear how many people are still inside the building #abilapost,1314
+18:47:10,unclear how many people still inside of building #abila #centralbulletin,1321
+18:47:31,rt @homelandilluminations homeland illumation on site.  flames visible from second floor of six floor apartment building. #hi,1335
+18:47:59,more police have arrived. still no word on any residents trapped in the building. #hi,1344
+18:48:00,rt @homelandilluminations police report the building is being searched for occupants. #hi,1355
+18:48:02,they're going into the building even tho it's #enfuego,1360
+18:48:09,rt @abilapost unclear how many people are still inside the building #abilapost,1364
+18:52:19,firemen still clearing building. #hi,1450
+18:52:27,residents?continue making their way out of the apartment building unclear how many are still inside #abilapost,1460
+18:52:28,firemen are helping evacuate the building. #kronosstar,1463
+18:52:37,firefighters have assisted several residents out of the building #afd #heroes?#abilapost,1466
+18:53:10,abila fire department has ordered the evacuation of nearby buildings as a precaution for fire at achilleos & madeg?#afd,1481
+18:53:27,rt @abilapost residents?continue making their way out of the apartment building unclear how many are still inside #abilapost,1492
+18:53:28,rt @kronosstar firemen are helping evacuate the building. #kronosstar,1495
+18:53:37,rt @abilapost firefighters have assisted several residents out of the building #afd #heroes?#abilapost,1496
+18:55:05,as a precaution fire officials have ordered nearby buildings evacuated. police are going door to door to clear area. #hi,1522
+18:55:05,they're making us get way back from the building --scared now.,1523
+113,Oh man they are evacuating the nearby buildings #abilafire,1524
+18:55:05,oh man they are evacuating the nearby buildings #abilafire,1524
+18:56:02,police and firemen have started to evacuate neighboring buildings. #kronosstar #dancingdolphinfire,1534
+18:56:02,building appears to lost. #hi,1535
+18:57:02,rt @homelandilluminations building appears to lost. #hi,1559
+18:57:05,rt @homelandilluminations as a precaution fire officials have ordered nearby buildings evacuated. police are going door to door to clear area. #hi,1561
+18:57:13,evacuations of surrounding buildings have begun - if you are in the vicinity of achilleos & madeg please be safe #abilapost,1564
+18:59:01,paramedics say there are no serious injuries among the building residents. #kronosstar #dancingdolphinfire,1580
+19:00:00,hear comes some folks from 3 - afd carrying marta out the building. #afdheros,1596
+19:00:01,rt @kronosstar paramedics say there are no serious injuries among the building residents. #kronosstar #dancingdolphinfire,1599
+19:00:31,firemen have rescued a resident from the upper floors of the building. #kronosstar #dancingdolphinfire #afdheroes,1607
+19:04:00,rt @greycatcollectibles hear comes some folks from 3 - afd carrying marta out the building. #afdheros,1679
+19:15:00,sittin' here in the park looking at the govt buildings and wonderig if they're worried 'cause change is comeing #pok,1817
+127,Wow - more police #abilafire,1829
+132,More fire trucks are arriving this is really bad,1895
+141,They are announcing more evacuations not sure if i'll be able to keep seeing anything,1941
+19:25:08,#afd and #apd have announced expanding evacuation perimeter to addtional buildings #abilapost,2012
+19:26:13,the fire marshal has decided to evacuate additional buildings. #kronosstar #dancingdolphinfire,2029
+157,"They are getting ready to go house to house I""""m really worried #abilafire""""",2049
+19:28:13,rt @kronosstar the fire marshal has decided to evacuate additional buildings. #kronosstar #dancingdolphinfire,2063
+193,OMG Abila Post says a cop got shot! what is happening??????,2332
+19:45:00,additional police have arrived to assist with building evacuations. #kronosstar #dancingdolphinfire,2496
+19:45:00,evacuation expanded to include more buildings. #hi,2497
+19:47:00,rt @homelandilluminations evacuation expanded to include more buildings. #hi,2590
+20:03:32,i see?some swat dudes setting up on the top of a building,2873
+20:05:00,an injured firefighter is being pulled from the building. #kronosstar #dancingdolphinfire #afdheroes,2898
+237,They just put him in an ambulance #hurtfirefighter #abilafire,2900
+20:05:32,rt @protoguy i see?some swat dudes setting up on the top of a building,2909
+20:30:00,firemen are running from the building. something is wrong... #kronosstar #dancingdolphinfire #afdheroes,3338
+20:32:00,rt @kronosstar firemen are running from the building. something is wrong... #kronosstar #dancingdolphinfire #afdheroes,3373
+20:33:00,the top floors of the building have collapsed. #kronosstar #dancingdolphinfire,3390
+20:33:00,top floors of building have collapsed. #hi,3392
+20:35:02,afd says the building isn't safe to re-enter.  they will fight the fire from the outside only now. #kronosstar #dancingdolphinfire #afdheroes,3431
+20:39:02,rt @kronosstar afd says the building isn't safe to re-enter.  they will fight the fire from the outside only now. #kronosstar #dancingdolphinfire #afdheroes,3493
+20:50:00,"the firemen have turned their hoses onto the surrounding buildings, likely to keep the fire from spreading. #kronosstar #dancingdolphinfire",3593
+20:50:00,fire officials have begun control measures on surrounding buildings. #hi,3594
+20:51:00,"rt @kronosstar the firemen have turned their hoses onto the surrounding buildings, likely to keep the fire from spreading. #kronosstar #dancingdolphinfire",3606
+20:51:00,rt @homelandilluminations fire officials have begun control measures on surrounding buildings. #hi,3609
+20:52:00,#afd has shifted focus to protecting surrounding buildings from the spread of fire #abilapost,3620
+21:25:00,afd says the neighboring buildings are likely not at risk. #kronosstar #dancingdolphinfire #afdheroes,3977
+21:27:00,rt @kronosstar afd says the neighboring buildings are likely not at risk. #kronosstar #dancingdolphinfire #afdheroes,4004
+21:30:00,there has been an explosion from inside the apartment building.  several people are down. #kronosstar #dancingdolphinfire #afdheroes,4034
+308,OMG was that an explosion ? #abilafire,4038
+21:31:00,rt @kronosstar there has been an explosion from inside the apartment building.  several people are down. #kronosstar #dancingdolphinfire #afdheroes,4052

@@ -1,0 +1,63 @@
+I have a dataset that contains multiple regions, and each region has some messages that must be published in that region and some semantically relevant messages. Based on those messages, I need you to summarize an event story for each region. You can try to figure out when and where the event is. The output format:
+      {
+          "Events": [
+              {
+              "Event": short title,
+              "Location": "",
+              "Time": "",
+              "Messages": [],
+              "Summary": ""
+              }
+          ]
+      })
+ At the end of your answer, as each event may consist of one or more messages, you should use a list (e,g.,["1", "2",...]) to list the "ID" of the Messages. Use the messages as a source of facts, and do not engage in unfounded speculation. Event Title no more than 4 words. "Location" might be empty but "Summary" should not be empty. "Summary" no more than 20 words. Do not add other sentences.
+Event1:
+ datetime,message,ID
+19:39:07,pursuit-continues-police units #253 and #357,2207
+19:39:40,wow! crazy driving into @gelatogalore #somebodywantgelatobad,2216
+19:40:00,wow some crazy black van just got pulled over in the parking lot - dinner & a show!,2228
+19:40:00,omg dude in a black van is shooting at the cops!  bullets everywhere.,2231
+19:40:00,cops?r right behind - whats up? think that was gunshots #crazy,2236
+19:40:00,felony assault/weapon-in progress,2237
+19:40:22,disturbance-noise,2245
+19:40:29,so van tried a t-turn to exit; cop blocked him off; van and cop doors open #troubleatgelato,2247
+19:40:41,omg there shooting there shooting!,2254
+19:40:41,i think a cop got shot! hes down?n might be dead,2260
+19:41:03,what is happening? they r right out front shooting,2273
+19:41:07,"black van faces off two cop cars, shots fired, people undercover, not moving until its under control #troubleatgelato",2275
+19:41:13,never been so scared under the table in gelatogalore cant see much just cop lights,2280
+19:41:13,nooooo! a cop just got killed - the shooter is still in the gelatogalore parking lot,2283
+19:41:33,why didnt i stay at the rally? im trapped in here the van is right outsdie the door,2298
+19:41:33,"van guys behind their doors, cops too #troubleatgelato",2301
+19:41:45,i have to see outside not knowing is killing me!,2310
+19:41:45,unconfirmed reports of an officer down as result of gun fire in gelatogalore parking lot #abilapost,2312
+19:41:45,shots fired at gelato galore. police officer is down. #kronosstar,2313
+19:41:45,there is a flurry of activity near the gelato galore where police are holding off multiple gunman.,2314
+19:41:48,everyone is hiding some guy just reached up and grabbed his food who can eat in a time like this?,2317
+19:41:57,fire/medics needed-officer down,2328
+19:42:03,omg abila post says a cop got shot! what is happening??????,2332
+19:42:11,everyone stay indoors -- there's someone shooting people at gelato galor!!!!!  don't go outside!,2339
+19:42:14,stupid guy is standing up looking out the windows does he want to get shot?,2344
+19:42:22,sit down pls!,2350
+19:42:22,breaking news in abila! shots fired at gelato galore. police officer is down. #intnews,2352
+19:42:28,havent heard any more shots pls no more #shooting,2354
+19:42:28,fire/medics needed-ambulance dispatched,2358
+19:43:00,rt @protoguy omg dude in a black van is shooting at the cops!  bullets everywhere.,2370
+19:43:00,stay away from gelatogalore terrorists shooting cops! #pok #terror,2375
+19:43:11,who shoots a cop? who are these maniacs?!?!,2385
+ Event2:
+ datetime,message,ID
+19:35:07,henri -bike guy- done talking to coppers now looking at his trashed bike.,2143
+19:35:07,going to give the biker a coffee!! he's bean served!,2144
+19:36:00,cyclist safety meeting #eastabila #cycling,2156
+19:36:00,i think he's? crying.,2159
+19:38:07,rt @hngohebo_abilapost bicyclist in hit and run accident at 500 block of schaber uninjured #abilapost,2187
+19:39:07,rt @brewvebeenserved going to give the biker a coffee!! he's bean served!,2204
+19:39:07,coffee shop owner just gave henri a coffee - yay abila! we have nice people here.,2206
+19:39:40,except for that derp who hit henri.,2212
+19:39:40,our awesome coffee cheered him up he's ok now!!,2213
+19:40:00,abila police have cornered the erratic driver in a parking lot near the intersection of alexandrias and ithakis. shots fired. #kronosstar,2229
+19:40:00,yeah van -- can't exit the backway at gelato.  and now the cops got him!,2232
+19:41:33,guess someone didhn't get good servide at gelato galore-- #overreaction,2302
+19:42:11,just left coffee store - omg it could have been me. pray for people still there.,2336
+ 

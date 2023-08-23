@@ -1,0 +1,467 @@
+Please summarize below messages data into a story of the "van" with several subevents. There may be messages that are not related to the story, so you may need to filter them. You can try to figure out when and where the subevent is. At the end of your answer, as each subevent may consist of one or more messages, you should use a list (e,g.,[1, 2,...]) to list the "ID" of the message. Use the messages as a source of facts, and do not engage in unfounded speculation. Subevent Title no more than 4 words. The output format:
+
+    {
+        "Story Title": short title,
+        "Subevents": [
+            {
+            "Subevent": short title,
+            "Location": "",
+            "Time": "",
+            "Messages": [],
+            "Summary": ""
+            }
+        ]
+    })
+Do not add other sentences.
+ Data: 
+                                                    message    ID
+datetime                                                         
+19:19:00  dude! someone just totaly hit a car on Souliou...  1877
+19:20:00         Some moron in a black van just hit my car!  1898
+19:20:00       WOW! Crazy driver! Hopefully everyone is ok!  1899
+19:21:01  Oh no!! That crazy driver hit a guy on a bike ...  1924
+19:21:38  FREE COFFEE to anyone who caught the license p...  1930
+...                                                     ...   ...
+21:17:01  RT @truccotrucco other guy is out of the van! ...  3846
+21:17:11  i think there giving up 2 people hands up got ...  3852
+21:18:47  RT @megaMan Police are taking two van guys int...  3865
+21:21:11  a man and woman have surrended to police two m...  3906
+21:24:11  RT @panopticon a man and woman have surrended ...  3966
+
+[122 rows x 2 columns]Please summarize below messages data into a story of the "van" with several subevents. There may be messages that are not related to the story, so you may need to filter them. You can try to figure out when and where the subevent is. At the end of your answer, as each subevent may consist of one or more messages, you should use a list (e,g.,[1, 2,...]) to list the "ID" of the message. Use the messages as a source of facts, and do not engage in unfounded speculation. Subevent Title no more than 4 words. The output format:
+
+    {
+        "Story Title": short title,
+        "Subevents": [
+            {
+            "Subevent": short title,
+            "Location": "",
+            "Time": "",
+            "Messages": [],
+            "Summary": ""
+            }
+        ]
+    })
+Do not add other sentences.
+ Data: 
+datetime,message,ID
+19:19:00,dude! someone just totaly hit a car on Souliou and took off  #jerkdrivers,1877
+19:20:00,Some moron in a black van just hit my car!,1898
+19:20:00,WOW! Crazy driver! Hopefully everyone is ok!,1899
+19:21:01,Oh no!! That crazy driver hit a guy on a bike outside our shop!!,1924
+19:21:38,FREE COFFEE to anyone who caught the license plate of that black van! #jerkdrivers,1930
+19:22:00,OMG!!!!!!! Some derp in a?balck?van just?hit a guy on a bike!!!!!,1942
+19:22:00,OMG! A van just hit a guy on a bike.,1943
+19:23:00,Abila Police Department releases a partial license plate number for hit and run vehicle L829 #APD,1959
+19:23:54,Abila Police Department issues description of hit and run vehicle: a black van with partial license plate L829 #APD,1975
+19:24:00,RT @AbilaPoliceDepartment Abila Police Department releases a partial license plate number for hit and run vehicle L829 #APD,1980
+19:24:18,some guy just got hit by this crazy driver - he's messed up,1985
+19:24:38,RT @brewvebeenserved FREE COFFEE to anyone who caught the license plate of that black van! #jerkdrivers,1990
+19:25:00,#APD has released description of hit and run vehicle from 500 block of Schaber: black van with partial license L829 #AbilaPost,2005
+19:35:07,Abila Police Department reports pursuit of suspected hit and run vehicle - pursuit is headed west on Egeou?#APD,2142
+19:36:00,Abila police are in pursuit of an erratic driver who ran a red light on Polvo.  #KronosStar,2157
+19:36:00,Some dude just blasted a red light and has a cop in pursuit #gonnagetit,2160
+19:38:07,RT @AbilaPoliceDepartment Abila Police Department reports pursuit of suspected hit and run vehicle - pursuit is headed west on Egeou?#APD,2188
+19:40:00,wow some crazy black van just got pulled over in the parking lot - dinner & a show!,2228
+19:40:00,Abila police have cornered the erratic driver in a parking lot near the intersection of Alexandrias and Ithakis. Shots fired. #KronosStar,2229
+19:40:00,OMG dude in a black van is shooting at the cops!  Bullets everywhere.,2231
+19:40:00,Yeah van -- can't exit the backway at Gelato.  And now the cops got him!,2232
+19:40:22,OMG THE COPS ARE HERE FOR ME!,2239
+19:40:22,Better than expected - cops block van at Gelato. Moving to get a better view.,2240
+19:40:29,So van tried a t-turn to exit; cop blocked him off; van and cop doors open #troubleatgelato,2247
+19:41:00,OMG a cop got hit. he's down blood everywhere,2265
+19:41:00,I think a cop got hit!,2269
+19:41:07,"Black van faces off two cop cars, shots fired, people undercover, not moving until its under control #troubleatgelato",2275
+19:41:07,I think a cop just got shot right outside #carlyscoffee #APD,2278
+19:41:13,"@ben @george Can't see whos in the van yet, one cop",2282
+19:41:13,Nooooo! a cop just got killed - the shooter is still in the gelatogalore parking lot,2283
+19:41:33,why didnt i stay at the rally? im trapped in here the van is right outsdie the door,2298
+19:41:33,cops and the van dude are hiding behind their doors - just like the movies,2300
+19:41:33,"van guys behind their doors, cops too #troubleatgelato",2301
+19:41:45,don't think anyone ran for it; they didn'thave time before police pulled in #TAG,2311
+19:42:03,OMG Abila Post says a cop got shot! what is happening??????,2332
+19:42:14,stupid guy is standing up looking out the windows does he want to get shot?,2344
+19:43:00,RT @protoGuy OMG dude in a black van is shooting at the cops!  Bullets everywhere.,2370
+19:43:11,who shoots a cop? who are these maniacs?!?!,2385
+19:43:22,#APD officer has been shot by the driver of a black van #AbilaPost,2395
+19:43:22,OMG! the cop got shot and still isnt moving i cant belivef it whats happeningn?,2397
+19:43:33,RT @protoGuy cops and the van dude are hiding behind their doors - just like the movies,2408
+19:43:37,somany cops i cant beleive this is happening just wanted coffee,2414
+19:43:57,I wonder who this van dude is he looks like he wants to kill the cops,2434
+19:44:07,"RT @megaMan Black van faces off two cop cars, shots fired, people undercover, not moving until its under control #troubleatgelato",2452
+19:44:23,looks like there are 3 cop cars and the black van two people in the front of van #shooting,2461
+19:44:28,Wonder if the van guys are getting nervous or gonna give up #TAG,2470
+19:44:40,Police starting to move about - still can't see anyone in van - probably empty #TAG,2480
+19:44:41,police evacuating area of shooting #Abila #CentralBulletin,2484
+19:45:00,van dude is waving his gun and shouting at cops.  He's crazy!,2504
+19:45:00,the guy is screaming at the cops and waving a gun why arentt they shooting him just shot a cop,2507
+19:45:13,"RT @megaMan @ben @george Can't see whos in the van yet, one cop",2519
+19:45:22,guy in the van has a gun and he doesn't seem too stable,2526
+19:45:40,RT @megaMan Police starting to move about - still can't see anyone in van - probably empty #TAG,2534
+19:46:00,just realized the cops shot a lot of bullets and didn't hit the van dude,2555
+19:46:00,Guy just came back - says he looked out the back door and saw a black van and guys with guns.,2557
+19:48:00,RT @roger_roger Guy just came back - says he looked out the back door and saw a black van and guys with guns.,2621
+19:48:13,Wanna get my van detailed -recommendations? #blackvansrules,2625
+19:48:23,RT @truccotrucco looks like there are 3 cop cars and the black van two people in the front of van #shooting,2630
+19:49:13,RT @grlPwrz505 Wanna get my van detailed -recommendations? #blackvansrules,2655
+19:49:22,RT @Sara_Nespola guy in the van has a gun and he doesn't seem too stable,2657
+19:56:57,guy who was gonna run came back said police were outside,2757
+19:58:13,guy in the van keeps yeelling at cops cant hear him but looks mad #standoff,2786
+19:58:13,dude in the van says he's gonna shot a hostage if they dont let him go,2787
+19:58:13,black clothes guys yelling at van guys #TAG,2788
+19:58:13,#APD reports shooter in black van has a hostage #AbilaPost,2789
+19:58:13,I can hear the police yelling. sounds like the black van guys have captives.,2793
+19:59:31,can't see any hostages in the van - they must be in the back,2807
+20:00:13,RT @protoGuy dude in the van says he's gonna shot a hostage if they dont let him go,2828
+20:00:13,RT @megaMan black clothes guys yelling at van guys #TAG,2829
+20:01:31,RT @protoGuy can't see any hostages in the van - they must be in the back,2838
+20:02:13,RT @truccotrucco guy in the van keeps yeelling at cops cant hear him but looks mad #standoff,2842
+20:01:57,im just seeing someone talking to van guys. if there is anyone in the van they are still in there #TAG,2860
+20:05:57,RT @megaMan im just seeing someone talking to van guys. if there is anyone in the van they are still in there #TAG,2921
+20:10:00,police just knocked on my door about the car!,3005
+20:10:00,swat guy is talking to van dude trying to get him to give up,3006
+20:10:17,this guy in the van is craazy why talk to that cant talk to crazy,3029
+20:10:29,Police have someone talking to van guys  #TAG,3036
+20:10:38,Can't hear words - van guy sounds mad #TAG,3041
+20:11:21,they seemed really interested in where that van came from,3065
+20:11:21,cops are helping poeple from carlys coffee,3067
+20:13:00,RT @hennyhenhendrix police just knocked on my door about the car!,3091
+20:15:01,@tomish Its a black panel van - no windows. #TAG,3121
+20:18:01,why has no one put it together? black van shooter rally hostages = POK rally distraction for POK kidnapping #POK #terror,3158
+20:18:01,van guy waving gun at the roofs. Thinks SWATs there?  #TAG,3159
+20:18:01,evacuated witness reports seeing wild driving black van being pursued by two cop cars #AbilaPost,3160
+20:19:01,RT @AbilaPost evacuated witness reports seeing wild driving black van being pursued by two cop cars #AbilaPost,3167
+20:20:02,van dude is yelling at cops,3181
+20:20:02,witness reports that male driver of black van tried to drive out of gelatogalore parking lot but was blocked then opened fire #AbilaPost,3184
+20:21:02,RT @AbilaPost witness reports that male driver of black van tried to drive out of gelatogalore parking lot but was blocked then opened fire #AbilaPost,3199
+20:21:03,guy in the black van is screaming something at the cops but cant hear what,3206
+20:21:34,i wonder why the cops were chasing this van anyway,3221
+20:22:21,think someone in the van just showed a hostage! Looked like a girl  #TAG,3233
+20:27:11,lots of guns pointed at that van #TAG,3305
+20:27:33,some guy looked out the window says theres a ton of cops,3314
+20:30:15,Kid says he saw 2 people in the van from the other side of the street #TAG,3351
+20:32:52,i wonder what the cops are offering the van dude to get him to give up,3384
+20:35:09,"Actually, that's a pretty nice #blackvan. Nice window tint job.",3444
+20:35:52,RT @protoGuy i wonder what the cops are offering the van dude to get him to give up,3453
+20:45:00,nothing new to report: heavily armed #APD SWAT still in standoff with occupants of black van #AbilaPost,3539
+20:48:00,RT @AbilaPost nothing new to report: heavily armed #APD SWAT still in standoff with occupants of black van #AbilaPost,3569
+21:00:00,van guy looking all around? #TAG,3688
+21:00:04,what is this guy doing? just give up and now hes back in the van #standoff #gelatogalore,3691
+21:00:04,ACTION! van guy bac in van #TAG,3692
+21:00:04,crazy guy is back in the van - what is going on?,3694
+21:01:00,Moving van up for sale #blackvan #car4sale,3706
+21:01:00,Yelling FROM INSIDE the van! #TAG,3708
+21:01:00,the screaming guy is back in the van looks like hes in there screaming too - fighting with his partner maybe?,3709
+21:02:00,RT @starz1134 Moving van up for sale #blackvan #car4sale,3719
+21:03:00,RT @panopticon the screaming guy is back in the van looks like hes in there screaming too - fighting with his partner maybe?,3729
+21:04:04,RT @megaMan ACTION! van guy bac in van #TAG,3737
+21:13:00,someones out of the van! is it over?,3796
+21:13:00,@ben ITS THE SECOND VAN GUY!,3797
+21:14:01,other guy is out of the van! its over theyre giving up! #standoff,3805
+21:14:47,Police are taking two van guys into waiting car #TAG,3811
+21:15:00,a woman is out of the passenger side van she has her hands up is it over?,3822
+21:17:00,RT @truccotrucco someones out of the van! is it over?,3843
+21:17:00,RT @megaMan @ben ITS THE SECOND VAN GUY!,3844
+21:17:01,RT @truccotrucco other guy is out of the van! its over theyre giving up! #standoff,3846
+21:17:11,i think there giving up 2 people hands up got out of the van guy & girl,3852
+21:18:47,RT @megaMan Police are taking two van guys into waiting car #TAG,3865
+21:21:11,a man and woman have surrended to police two more people have left the van i think there hostages,3906
+21:24:11,RT @panopticon a man and woman have surrended to police two more people have left the van i think there hostages,3966
+Please summarize below messages data into a story of the "van" with several subevents. There may be messages that are not related to the story, so you may need to filter them. You can try to figure out when and where the subevent is. At the end of your answer, as each subevent may consist of one or more messages, you should use a list (e,g.,[1, 2,...]) to list the "ID" of the message. Use the messages as a source of facts, and do not engage in unfounded speculation. Subevent Title no more than 4 words. The output format:
+
+    {
+        "Story Title": short title,
+        "Subevents": [
+            {
+            "Subevent": short title,
+            "Location": "",
+            "Time": "",
+            "Messages": [],
+            "Summary": ""
+            }
+        ]
+    })
+Do not add other sentences.
+ Data: 
+datetime,message,ID
+19:19:00,dude! someone just totaly hit a car on Souliou and took off  #jerkdrivers,1877
+19:20:00,Some moron in a black van just hit my car!,1898
+19:20:00,WOW! Crazy driver! Hopefully everyone is ok!,1899
+19:21:01,Oh no!! That crazy driver hit a guy on a bike outside our shop!!,1924
+19:21:38,FREE COFFEE to anyone who caught the license plate of that black van! #jerkdrivers,1930
+19:22:00,OMG!!!!!!! Some derp in a?balck?van just?hit a guy on a bike!!!!!,1942
+19:22:00,OMG! A van just hit a guy on a bike.,1943
+19:23:00,Abila Police Department releases a partial license plate number for hit and run vehicle L829 #APD,1959
+19:23:54,Abila Police Department issues description of hit and run vehicle: a black van with partial license plate L829 #APD,1975
+19:24:00,RT @AbilaPoliceDepartment Abila Police Department releases a partial license plate number for hit and run vehicle L829 #APD,1980
+19:24:18,some guy just got hit by this crazy driver - he's messed up,1985
+19:24:38,RT @brewvebeenserved FREE COFFEE to anyone who caught the license plate of that black van! #jerkdrivers,1990
+19:25:00,#APD has released description of hit and run vehicle from 500 block of Schaber: black van with partial license L829 #AbilaPost,2005
+19:35:07,Abila Police Department reports pursuit of suspected hit and run vehicle - pursuit is headed west on Egeou?#APD,2142
+19:36:00,Abila police are in pursuit of an erratic driver who ran a red light on Polvo.  #KronosStar,2157
+19:36:00,Some dude just blasted a red light and has a cop in pursuit #gonnagetit,2160
+19:38:07,RT @AbilaPoliceDepartment Abila Police Department reports pursuit of suspected hit and run vehicle - pursuit is headed west on Egeou?#APD,2188
+19:40:00,wow some crazy black van just got pulled over in the parking lot - dinner & a show!,2228
+19:40:00,Abila police have cornered the erratic driver in a parking lot near the intersection of Alexandrias and Ithakis. Shots fired. #KronosStar,2229
+19:40:00,OMG dude in a black van is shooting at the cops!  Bullets everywhere.,2231
+19:40:00,Yeah van -- can't exit the backway at Gelato.  And now the cops got him!,2232
+19:40:22,OMG THE COPS ARE HERE FOR ME!,2239
+19:40:22,Better than expected - cops block van at Gelato. Moving to get a better view.,2240
+19:40:29,So van tried a t-turn to exit; cop blocked him off; van and cop doors open #troubleatgelato,2247
+19:41:00,OMG a cop got hit. he's down blood everywhere,2265
+19:41:00,I think a cop got hit!,2269
+19:41:07,"Black van faces off two cop cars, shots fired, people undercover, not moving until its under control #troubleatgelato",2275
+19:41:07,I think a cop just got shot right outside #carlyscoffee #APD,2278
+19:41:13,"@ben @george Can't see whos in the van yet, one cop",2282
+19:41:13,Nooooo! a cop just got killed - the shooter is still in the gelatogalore parking lot,2283
+19:41:33,why didnt i stay at the rally? im trapped in here the van is right outsdie the door,2298
+19:41:33,cops and the van dude are hiding behind their doors - just like the movies,2300
+19:41:33,"van guys behind their doors, cops too #troubleatgelato",2301
+19:41:45,don't think anyone ran for it; they didn'thave time before police pulled in #TAG,2311
+19:42:03,OMG Abila Post says a cop got shot! what is happening??????,2332
+19:42:14,stupid guy is standing up looking out the windows does he want to get shot?,2344
+19:43:00,RT @protoGuy OMG dude in a black van is shooting at the cops!  Bullets everywhere.,2370
+19:43:11,who shoots a cop? who are these maniacs?!?!,2385
+19:43:22,#APD officer has been shot by the driver of a black van #AbilaPost,2395
+19:43:22,OMG! the cop got shot and still isnt moving i cant belivef it whats happeningn?,2397
+19:43:33,RT @protoGuy cops and the van dude are hiding behind their doors - just like the movies,2408
+19:43:37,somany cops i cant beleive this is happening just wanted coffee,2414
+19:43:57,I wonder who this van dude is he looks like he wants to kill the cops,2434
+19:44:07,"RT @megaMan Black van faces off two cop cars, shots fired, people undercover, not moving until its under control #troubleatgelato",2452
+19:44:23,looks like there are 3 cop cars and the black van two people in the front of van #shooting,2461
+19:44:28,Wonder if the van guys are getting nervous or gonna give up #TAG,2470
+19:44:40,Police starting to move about - still can't see anyone in van - probably empty #TAG,2480
+19:44:41,police evacuating area of shooting #Abila #CentralBulletin,2484
+19:45:00,van dude is waving his gun and shouting at cops.  He's crazy!,2504
+19:45:00,the guy is screaming at the cops and waving a gun why arentt they shooting him just shot a cop,2507
+19:45:13,"RT @megaMan @ben @george Can't see whos in the van yet, one cop",2519
+19:45:22,guy in the van has a gun and he doesn't seem too stable,2526
+19:45:40,RT @megaMan Police starting to move about - still can't see anyone in van - probably empty #TAG,2534
+19:46:00,just realized the cops shot a lot of bullets and didn't hit the van dude,2555
+19:46:00,Guy just came back - says he looked out the back door and saw a black van and guys with guns.,2557
+19:48:00,RT @roger_roger Guy just came back - says he looked out the back door and saw a black van and guys with guns.,2621
+19:48:13,Wanna get my van detailed -recommendations? #blackvansrules,2625
+19:48:23,RT @truccotrucco looks like there are 3 cop cars and the black van two people in the front of van #shooting,2630
+19:49:13,RT @grlPwrz505 Wanna get my van detailed -recommendations? #blackvansrules,2655
+19:49:22,RT @Sara_Nespola guy in the van has a gun and he doesn't seem too stable,2657
+19:56:57,guy who was gonna run came back said police were outside,2757
+19:58:13,guy in the van keeps yeelling at cops cant hear him but looks mad #standoff,2786
+19:58:13,dude in the van says he's gonna shot a hostage if they dont let him go,2787
+19:58:13,black clothes guys yelling at van guys #TAG,2788
+19:58:13,#APD reports shooter in black van has a hostage #AbilaPost,2789
+19:58:13,I can hear the police yelling. sounds like the black van guys have captives.,2793
+19:59:31,can't see any hostages in the van - they must be in the back,2807
+20:00:13,RT @protoGuy dude in the van says he's gonna shot a hostage if they dont let him go,2828
+20:00:13,RT @megaMan black clothes guys yelling at van guys #TAG,2829
+20:01:31,RT @protoGuy can't see any hostages in the van - they must be in the back,2838
+20:02:13,RT @truccotrucco guy in the van keeps yeelling at cops cant hear him but looks mad #standoff,2842
+20:01:57,im just seeing someone talking to van guys. if there is anyone in the van they are still in there #TAG,2860
+20:05:57,RT @megaMan im just seeing someone talking to van guys. if there is anyone in the van they are still in there #TAG,2921
+20:10:00,police just knocked on my door about the car!,3005
+20:10:00,swat guy is talking to van dude trying to get him to give up,3006
+20:10:17,this guy in the van is craazy why talk to that cant talk to crazy,3029
+20:10:29,Police have someone talking to van guys  #TAG,3036
+20:10:38,Can't hear words - van guy sounds mad #TAG,3041
+20:11:21,they seemed really interested in where that van came from,3065
+20:11:21,cops are helping poeple from carlys coffee,3067
+20:13:00,RT @hennyhenhendrix police just knocked on my door about the car!,3091
+20:15:01,@tomish Its a black panel van - no windows. #TAG,3121
+20:18:01,why has no one put it together? black van shooter rally hostages = POK rally distraction for POK kidnapping #POK #terror,3158
+20:18:01,van guy waving gun at the roofs. Thinks SWATs there?  #TAG,3159
+20:18:01,evacuated witness reports seeing wild driving black van being pursued by two cop cars #AbilaPost,3160
+20:19:01,RT @AbilaPost evacuated witness reports seeing wild driving black van being pursued by two cop cars #AbilaPost,3167
+20:20:02,van dude is yelling at cops,3181
+20:20:02,witness reports that male driver of black van tried to drive out of gelatogalore parking lot but was blocked then opened fire #AbilaPost,3184
+20:21:02,RT @AbilaPost witness reports that male driver of black van tried to drive out of gelatogalore parking lot but was blocked then opened fire #AbilaPost,3199
+20:21:03,guy in the black van is screaming something at the cops but cant hear what,3206
+20:21:34,i wonder why the cops were chasing this van anyway,3221
+20:22:21,think someone in the van just showed a hostage! Looked like a girl  #TAG,3233
+20:27:11,lots of guns pointed at that van #TAG,3305
+20:27:33,some guy looked out the window says theres a ton of cops,3314
+20:30:15,Kid says he saw 2 people in the van from the other side of the street #TAG,3351
+20:32:52,i wonder what the cops are offering the van dude to get him to give up,3384
+20:35:09,"Actually, that's a pretty nice #blackvan. Nice window tint job.",3444
+20:35:52,RT @protoGuy i wonder what the cops are offering the van dude to get him to give up,3453
+20:45:00,nothing new to report: heavily armed #APD SWAT still in standoff with occupants of black van #AbilaPost,3539
+20:48:00,RT @AbilaPost nothing new to report: heavily armed #APD SWAT still in standoff with occupants of black van #AbilaPost,3569
+21:00:00,van guy looking all around? #TAG,3688
+21:00:04,what is this guy doing? just give up and now hes back in the van #standoff #gelatogalore,3691
+21:00:04,ACTION! van guy bac in van #TAG,3692
+21:00:04,crazy guy is back in the van - what is going on?,3694
+21:01:00,Moving van up for sale #blackvan #car4sale,3706
+21:01:00,Yelling FROM INSIDE the van! #TAG,3708
+21:01:00,the screaming guy is back in the van looks like hes in there screaming too - fighting with his partner maybe?,3709
+21:02:00,RT @starz1134 Moving van up for sale #blackvan #car4sale,3719
+21:03:00,RT @panopticon the screaming guy is back in the van looks like hes in there screaming too - fighting with his partner maybe?,3729
+21:04:04,RT @megaMan ACTION! van guy bac in van #TAG,3737
+21:13:00,someones out of the van! is it over?,3796
+21:13:00,@ben ITS THE SECOND VAN GUY!,3797
+21:14:01,other guy is out of the van! its over theyre giving up! #standoff,3805
+21:14:47,Police are taking two van guys into waiting car #TAG,3811
+21:15:00,a woman is out of the passenger side van she has her hands up is it over?,3822
+21:17:00,RT @truccotrucco someones out of the van! is it over?,3843
+21:17:00,RT @megaMan @ben ITS THE SECOND VAN GUY!,3844
+21:17:01,RT @truccotrucco other guy is out of the van! its over theyre giving up! #standoff,3846
+21:17:11,i think there giving up 2 people hands up got out of the van guy & girl,3852
+21:18:47,RT @megaMan Police are taking two van guys into waiting car #TAG,3865
+21:21:11,a man and woman have surrended to police two more people have left the van i think there hostages,3906
+21:24:11,RT @panopticon a man and woman have surrended to police two more people have left the van i think there hostages,3966
+Please summarize below messages data into a story of the "van" with several subevents. There may be messages that are not related to the story, so you may need to filter them. You can try to figure out when and where the subevent is. At the end of your answer, as each subevent may consist of one or more messages, you should use a list (e,g.,[1, 2,...]) to list the "ID" of the message. Use the messages as a source of facts, and do not engage in unfounded speculation. Subevent Title no more than 4 words. The output format:
+
+    {
+        "Story Title": short title,
+        "Subevents": [
+            {
+            "Subevent": short title,
+            "Location": "",
+            "Time": "",
+            "Messages": [],
+            "Summary": ""
+            }
+        ]
+    })
+Do not add other sentences.
+ Data: 
+                                                    message    ID
+datetime                                                         
+19:20:00         Some moron in a black van just hit my car!  1898
+19:20:00       WOW! Crazy driver! Hopefully everyone is ok!  1899
+19:21:01  Oh no!! That crazy driver hit a guy on a bike ...  1924
+19:21:38  FREE COFFEE to anyone who caught the license p...  1930
+19:22:00  OMG!!!!!!! Some derp in a?balck?van just?hit a...  1942
+...                                                     ...   ...
+21:17:00           RT @megaMan @ben ITS THE SECOND VAN GUY!  3844
+21:17:11  i think there giving up 2 people hands up got ...  3852
+21:18:47  RT @megaMan Police are taking two van guys int...  3865
+21:21:11  a man and woman have surrended to police two m...  3906
+21:24:11  RT @panopticon a man and woman have surrended ...  3966
+
+[112 rows x 2 columns]Please summarize below messages data into a story of the "van" with several subevents. There may be messages that are not related to the story, so you may need to filter them. You can try to figure out when and where the subevent is. At the end of your answer, as each subevent may consist of one or more messages, you should use a list (e,g.,[1, 2,...]) to list the "ID" of the message. Use the messages as a source of facts, and do not engage in unfounded speculation. Subevent Title no more than 4 words. The output format:
+
+    {
+        "Story Title": short title,
+        "Subevents": [
+            {
+            "Subevent": short title,
+            "Location": "",
+            "Time": "",
+            "Messages": [],
+            "Summary": ""
+            }
+        ]
+    })
+Do not add other sentences.
+ Data: 
+datetime,message,ID
+19:20:00,Some moron in a black van just hit my car!,1898
+19:20:00,WOW! Crazy driver! Hopefully everyone is ok!,1899
+19:21:01,Oh no!! That crazy driver hit a guy on a bike outside our shop!!,1924
+19:21:38,FREE COFFEE to anyone who caught the license plate of that black van! #jerkdrivers,1930
+19:22:00,OMG!!!!!!! Some derp in a?balck?van just?hit a guy on a bike!!!!!,1942
+19:22:00,OMG! A van just hit a guy on a bike.,1943
+19:23:00,Abila Police Department releases a partial license plate number for hit and run vehicle L829 #APD,1959
+19:23:54,Abila Police Department issues description of hit and run vehicle: a black van with partial license plate L829 #APD,1975
+19:24:00,RT @AbilaPoliceDepartment Abila Police Department releases a partial license plate number for hit and run vehicle L829 #APD,1980
+19:24:18,some guy just got hit by this crazy driver - he's messed up,1985
+19:24:38,RT @brewvebeenserved FREE COFFEE to anyone who caught the license plate of that black van! #jerkdrivers,1990
+19:25:00,#APD has released description of hit and run vehicle from 500 block of Schaber: black van with partial license L829 #AbilaPost,2005
+19:36:00,Abila police are in pursuit of an erratic driver who ran a red light on Polvo.  #KronosStar,2157
+19:36:00,Some dude just blasted a red light and has a cop in pursuit #gonnagetit,2160
+19:40:00,wow some crazy black van just got pulled over in the parking lot - dinner & a show!,2228
+19:40:00,Abila police have cornered the erratic driver in a parking lot near the intersection of Alexandrias and Ithakis. Shots fired. #KronosStar,2229
+19:40:00,OMG dude in a black van is shooting at the cops!  Bullets everywhere.,2231
+19:40:00,Yeah van -- can't exit the backway at Gelato.  And now the cops got him!,2232
+19:40:22,Better than expected - cops block van at Gelato. Moving to get a better view.,2240
+19:40:29,So van tried a t-turn to exit; cop blocked him off; van and cop doors open #troubleatgelato,2247
+19:41:00,OMG a cop got hit. he's down blood everywhere,2265
+19:41:00,I think a cop got hit!,2269
+19:41:07,"Black van faces off two cop cars, shots fired, people undercover, not moving until its under control #troubleatgelato",2275
+19:41:13,"@ben @george Can't see whos in the van yet, one cop",2282
+19:41:13,Nooooo! a cop just got killed - the shooter is still in the gelatogalore parking lot,2283
+19:41:33,why didnt i stay at the rally? im trapped in here the van is right outsdie the door,2298
+19:41:33,cops and the van dude are hiding behind their doors - just like the movies,2300
+19:41:33,"van guys behind their doors, cops too #troubleatgelato",2301
+19:41:45,don't think anyone ran for it; they didn'thave time before police pulled in #TAG,2311
+19:42:03,OMG Abila Post says a cop got shot! what is happening??????,2332
+19:42:14,stupid guy is standing up looking out the windows does he want to get shot?,2344
+19:43:00,RT @protoGuy OMG dude in a black van is shooting at the cops!  Bullets everywhere.,2370
+19:43:22,#APD officer has been shot by the driver of a black van #AbilaPost,2395
+19:43:22,OMG! the cop got shot and still isnt moving i cant belivef it whats happeningn?,2397
+19:43:33,RT @protoGuy cops and the van dude are hiding behind their doors - just like the movies,2408
+19:43:37,somany cops i cant beleive this is happening just wanted coffee,2414
+19:43:57,I wonder who this van dude is he looks like he wants to kill the cops,2434
+19:44:07,"RT @megaMan Black van faces off two cop cars, shots fired, people undercover, not moving until its under control #troubleatgelato",2452
+19:44:23,looks like there are 3 cop cars and the black van two people in the front of van #shooting,2461
+19:44:28,Wonder if the van guys are getting nervous or gonna give up #TAG,2470
+19:44:40,Police starting to move about - still can't see anyone in van - probably empty #TAG,2480
+19:44:41,police evacuating area of shooting #Abila #CentralBulletin,2484
+19:45:00,van dude is waving his gun and shouting at cops.  He's crazy!,2504
+19:45:00,the guy is screaming at the cops and waving a gun why arentt they shooting him just shot a cop,2507
+19:45:13,"RT @megaMan @ben @george Can't see whos in the van yet, one cop",2519
+19:45:22,guy in the van has a gun and he doesn't seem too stable,2526
+19:45:40,RT @megaMan Police starting to move about - still can't see anyone in van - probably empty #TAG,2534
+19:46:00,just realized the cops shot a lot of bullets and didn't hit the van dude,2555
+19:46:00,Guy just came back - says he looked out the back door and saw a black van and guys with guns.,2557
+19:48:00,RT @roger_roger Guy just came back - says he looked out the back door and saw a black van and guys with guns.,2621
+19:48:13,Wanna get my van detailed -recommendations? #blackvansrules,2625
+19:48:23,RT @truccotrucco looks like there are 3 cop cars and the black van two people in the front of van #shooting,2630
+19:49:13,RT @grlPwrz505 Wanna get my van detailed -recommendations? #blackvansrules,2655
+19:49:22,RT @Sara_Nespola guy in the van has a gun and he doesn't seem too stable,2657
+19:56:57,guy who was gonna run came back said police were outside,2757
+19:58:13,guy in the van keeps yeelling at cops cant hear him but looks mad #standoff,2786
+19:58:13,dude in the van says he's gonna shot a hostage if they dont let him go,2787
+19:58:13,black clothes guys yelling at van guys #TAG,2788
+19:58:13,#APD reports shooter in black van has a hostage #AbilaPost,2789
+19:58:13,I can hear the police yelling. sounds like the black van guys have captives.,2793
+19:59:31,can't see any hostages in the van - they must be in the back,2807
+20:00:13,RT @protoGuy dude in the van says he's gonna shot a hostage if they dont let him go,2828
+20:00:13,RT @megaMan black clothes guys yelling at van guys #TAG,2829
+20:01:31,RT @protoGuy can't see any hostages in the van - they must be in the back,2838
+20:02:13,RT @truccotrucco guy in the van keeps yeelling at cops cant hear him but looks mad #standoff,2842
+20:01:57,im just seeing someone talking to van guys. if there is anyone in the van they are still in there #TAG,2860
+20:05:57,RT @megaMan im just seeing someone talking to van guys. if there is anyone in the van they are still in there #TAG,2921
+20:10:00,swat guy is talking to van dude trying to get him to give up,3006
+20:10:17,this guy in the van is craazy why talk to that cant talk to crazy,3029
+20:10:29,Police have someone talking to van guys  #TAG,3036
+20:10:38,Can't hear words - van guy sounds mad #TAG,3041
+20:11:21,they seemed really interested in where that van came from,3065
+20:11:21,cops are helping poeple from carlys coffee,3067
+20:15:01,@tomish Its a black panel van - no windows. #TAG,3121
+20:18:01,why has no one put it together? black van shooter rally hostages = POK rally distraction for POK kidnapping #POK #terror,3158
+20:18:01,van guy waving gun at the roofs. Thinks SWATs there?  #TAG,3159
+20:18:01,evacuated witness reports seeing wild driving black van being pursued by two cop cars #AbilaPost,3160
+20:19:01,RT @AbilaPost evacuated witness reports seeing wild driving black van being pursued by two cop cars #AbilaPost,3167
+20:20:02,van dude is yelling at cops,3181
+20:20:02,witness reports that male driver of black van tried to drive out of gelatogalore parking lot but was blocked then opened fire #AbilaPost,3184
+20:21:02,RT @AbilaPost witness reports that male driver of black van tried to drive out of gelatogalore parking lot but was blocked then opened fire #AbilaPost,3199
+20:21:03,guy in the black van is screaming something at the cops but cant hear what,3206
+20:21:34,i wonder why the cops were chasing this van anyway,3221
+20:22:21,think someone in the van just showed a hostage! Looked like a girl  #TAG,3233
+20:27:11,lots of guns pointed at that van #TAG,3305
+20:27:33,some guy looked out the window says theres a ton of cops,3314
+20:30:15,Kid says he saw 2 people in the van from the other side of the street #TAG,3351
+20:32:52,i wonder what the cops are offering the van dude to get him to give up,3384
+20:35:09,"Actually, that's a pretty nice #blackvan. Nice window tint job.",3444
+20:35:52,RT @protoGuy i wonder what the cops are offering the van dude to get him to give up,3453
+20:45:00,nothing new to report: heavily armed #APD SWAT still in standoff with occupants of black van #AbilaPost,3539
+20:48:00,RT @AbilaPost nothing new to report: heavily armed #APD SWAT still in standoff with occupants of black van #AbilaPost,3569
+21:00:00,van guy looking all around? #TAG,3688
+21:00:04,what is this guy doing? just give up and now hes back in the van #standoff #gelatogalore,3691
+21:00:04,ACTION! van guy bac in van #TAG,3692
+21:00:04,crazy guy is back in the van - what is going on?,3694
+21:01:00,Moving van up for sale #blackvan #car4sale,3706
+21:01:00,Yelling FROM INSIDE the van! #TAG,3708
+21:01:00,the screaming guy is back in the van looks like hes in there screaming too - fighting with his partner maybe?,3709
+21:02:00,RT @starz1134 Moving van up for sale #blackvan #car4sale,3719
+21:03:00,RT @panopticon the screaming guy is back in the van looks like hes in there screaming too - fighting with his partner maybe?,3729
+21:13:00,someones out of the van! is it over?,3796
+21:13:00,@ben ITS THE SECOND VAN GUY!,3797
+21:14:01,other guy is out of the van! its over theyre giving up! #standoff,3805
+21:14:47,Police are taking two van guys into waiting car #TAG,3811
+21:15:00,a woman is out of the passenger side van she has her hands up is it over?,3822
+21:17:00,RT @truccotrucco someones out of the van! is it over?,3843
+21:17:00,RT @megaMan @ben ITS THE SECOND VAN GUY!,3844
+21:17:11,i think there giving up 2 people hands up got out of the van guy & girl,3852
+21:18:47,RT @megaMan Police are taking two van guys into waiting car #TAG,3865
+21:21:11,a man and woman have surrended to police two more people have left the van i think there hostages,3906
+21:24:11,RT @panopticon a man and woman have surrended to police two more people have left the van i think there hostages,3966

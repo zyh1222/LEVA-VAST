@@ -1,0 +1,46 @@
+I have a dataset that contains multiple regions, and each region has some messages that must be published in that region and some semantically relevant messages. Based on those messages, I need you to summarize an event story for each region. You can try to figure out when and where the event is. The output format:
+      {
+          "Events": [
+              {
+              "Event": short title,
+              "Location": "",
+              "Time": "",
+              "Messages": [],
+              "Summary": ""
+              }
+          ]
+      })
+ At the end of your answer, as each event may consist of one or more messages, you should use a list (e,g.,["1", "2",...]) to list the "ID" of the Messages. Use the messages as a source of facts, and do not engage in unfounded speculation. Event Title no more than 4 words. "Location" might be empty but "Summary" should not be empty. "Summary" no more than 20 words. Do not add other sentences.
+Event1:
+ datetime,message,ID
+21:14:47,everybody standing up watching cops are taking two away #standoff,3810
+21:15:00,hostages are free! 2 women i think hard to tell #standoff,3820
+21:17:11,everybody's safe cops got the bad guys and the hostages are safe #standoff,3848
+21:17:11,"hey nice win for the police - two bad guys caught, two hostages saved #tag",3850
+21:17:11,stand off ends peacefully?at gelato galore #apd has arrested 2 suspects and at least 2 hostages rescued & safe #abilapost,3851
+21:17:11,i think there giving up 2 people hands up got out of the van guy & girl,3852
+21:18:14,stand off ends peacefully 2 arrested and 2 hostages saved #abila #centralbulletin,3863
+21:19:03,therye letting us goo finallly! im still shaking! #standoff,3869
+21:19:03,they finally gave up #standoffover #apd,3871
+21:20:11,rt @abilapost stand off ends peacefully?at gelato galore #apd has arrested 2 suspects and at least 2 hostages rescued & safe #abilapost,3883
+21:20:50,tahnks to apd standoff is over! #apdheroes,3889
+21:20:50,prowler,3894
+21:21:03,rt @panopticon they finally gave up #standoffover #apd,3899
+21:21:11,cant belive it a peaceful ending after a shootout! #stillshaking,3901
+21:21:11,the hostage situation has been resolved. names of the hostages are not being released until families can be notified. #apd,3905
+21:21:11,a man and woman have surrended to police two more people have left the van i think there hostages,3906
+21:22:00,can anybody give me ride? #stillshaking,3920
+21:22:00,does anytbody konw what this was about? they were shooting at cops #standoff #gelatogalore,3923
+21:22:00,looks like it ended peaceful after the shots at first hope that cop is ok,3924
+21:23:03,stand off with pok terrorists ends without more violence,3937
+21:24:11,rt @panopticon a man and woman have surrended to police two more people have left the van i think there hostages,3966
+21:25:00,cops wont answer any questions im heading home #standoffover #bedtime,3981
+ Event2:
+ datetime,message,ID
+21:15:00,a woman is out of the passenger side van she has her hands up is it over?,3822
+21:22:00,#apd have still not released names of suspects arrested at stand off #abilapost,3922
+21:23:03,names of suspects arrested at stand off not released yet #abila #centralbulletin,3939
+21:23:34,suspects? terrorists names have not been released #pok,3948
+21:25:00,suspicious subject/circumstances-in progress,3983
+21:30:10,misdemeanor assault-in progress,4046
+ 

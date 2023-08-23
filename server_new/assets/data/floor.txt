@@ -1,0 +1,44 @@
+,message,ID
+84,POSSIBLE FIRE-REPORT,1124
+87,i think the dancin dolphin is on fire!,1151
+95,Fire trucks are arriving at the dancing dolphin #abilaFire,1214
+18:45:22,smoke from first two floors of dancing dolphin apartments. fire officials on site. #hi,1229
+18:45:31,smoke is coming from the windows of the second floor of the dancing dolphin apartments. #kronosstar,1236
+18:45:31,homeland illumation on site.  flames visible from second floor of six floor apartment building. #hi,1237
+18:45:32,flames visible from the second floor at the dancing dolphin apartments in abila #newsonline,1239
+18:45:47,second floor of six?of the dancing dolphin appears engulfed in flames #abilapost,1251
+18:47:31,rt @homelandilluminations homeland illumation on site.  flames visible from second floor of six floor apartment building. #hi,1335
+18:50:21,reports that the top three floors are under renovation @dancingdolphin #abilapost,1409
+18:50:21,residents report top floors of apartments were unoccupied. #hi,1410
+18:52:14,flames are shooting from the windows on the second floor.  #kronosstar,1444
+18:52:14,flames visible on 2nd floor. #hi,1445
+18:52:19,flames are shooting from the windows on the second floor. #abila #intnews,1448
+113,Oh man they are evacuating the nearby buildings #abilafire,1524
+18:55:19,rt @internationalnews flames are shooting from the windows on the second floor. #abila #intnews,1529
+18:56:14,rt @homelandilluminations flames visible on 2nd floor. #hi,1542
+18:59:01,a resident may be trapped on upper floor. #hi,1581
+18:59:34,firemen report they are rescuing one resident trapped on upper floor. #hi,1588
+19:00:00,residents report no one lived on floors 4-6. #hi,1595
+19:00:01,rt @homelandilluminations a resident may be trapped on upper floor. #hi,1603
+19:00:31,firemen have rescued a resident from the upper floors of the building. #kronosstar #dancingdolphinfire #afdheroes,1607
+19:00:34,rt @homelandilluminations firemen report they are rescuing one resident trapped on upper floor. #hi,1610
+19:00:42,firefighters have rescued a resident from the upper floors of @dancingdolphin #abilapost?,1611
+19:01:42,rt @abilapost firefighters have rescued a resident from the upper floors of @dancingdolphin #abilapost?,1622
+19:02:00,rt @homelandilluminations residents report no one lived on floors 4-6. #hi,1627
+19:02:00,resident rescued from upper floors of dancing dolphin apartment #abila #centralbulletin,1629
+127,Wow - more police #abilafire,1829
+141,They are announcing more evacuations not sure if i'll be able to keep seeing anything,1941
+157,"They are getting ready to go house to house I""""m really worried #abilafire""""",2049
+19:40:22,they told us to stay down- we're all on the floor. i'm ok,2243
+19:40:41,someone sais to get on the floor please send help,2258
+193,OMG Abila Post says a cop got shot! what is happening??????,2332
+204,im hearing more sirens i think i can get a view outside #shooting,2416
+20:03:32,we're all on the floor. we managed to block the back door.,2878
+20:33:00,the top floors of the building have collapsed. #kronosstar #dancingdolphinfire,3390
+20:33:00,the top floors have collapsed into the first floor?#abilapost,3391
+20:33:00,top floors of building have collapsed. #hi,3392
+20:33:49,top floors of dancing dolphin have collapsed #abila #centralbulletin,3401
+20:34:00,rt @abilapost the top floors have collapsed into the first floor?#abilapost,3412
+21:00:00,abila fire flares up. top floor has collapsed. #abila #newsonline,3686
+21:02:00,rt @newsonlinetoday abila fire flares up. top floor has collapsed. #abila #newsonline,3717
+308,OMG was that an explosion ? #abilafire,4038

@@ -1,0 +1,36 @@
+I have a dataset that contains multiple regions, and each region has some messages that must be published in that region and some semantically relevant messages. Based on those messages, I need you to summarize an event story for each region. You can try to figure out when and where the event is. The output format:
+      {
+          "Events": [
+              {
+              "Event": short title,
+              "Location": "",
+              "Time": "",
+              "Messages": [],
+              "Summary": ""
+              }
+          ]
+      })
+ At the end of your answer, as each event may consist of one or more messages, you should use a list (e,g.,["1", "2",...]) to list the "ID" of the Messages. Use the messages as a source of facts, and do not engage in unfounded speculation. Event Title no more than 4 words. "Location" might be empty but "Summary" should not be empty. "Summary" no more than 20 words. Do not add other sentences.
+Event1:
+ datetime,message,ID
+20:17:01,rt @homelandilluminations evacuations of area businesses are under way at police standoff,3149
+20:18:01,van guy waving gun at the roofs. thinks swats there?  #tag,3159
+20:20:02,standoff between apd and shooters continues at gelato galore. #kronosstar,3185
+20:21:34,standoff continues with multiple gunmen with unknown number of hostages,3222
+20:21:34,dude outside is yelling something about hostages #standoff,3223
+20:21:34,please please tell me whats happening out there? did someone get shot?,3224
+20:26:02,we're free! thanks #apd #standoff,3288
+20:27:33,some guy looked out the window says theres a ton of cops,3314
+20:28:02,rt @simon_hamaeth we're free! thanks #apd #standoff,3317
+20:30:00,i hope everyone stays calm and the hostages don't get hurt #standoff,3345
+20:32:52,i wish this was over i can barely even type anthing #standoff,3382
+20:33:49,why dont the cops do anything? save us pls! #apd #standoff,3402
+20:34:00,arent swat suppposed to be the tough buys that swoop in & save the day? what are they waiting for? were trapped!,3413
+20:34:03,this standoff is going nowhere do they have hostages or someothing?,3420
+20:35:02,why is this taking so long? im starting to feel sick #standoff,3433
+20:35:09,can't believe people in here are moving towards the danger #shooter #stupid,3445
+20:35:52,rt @truccotrucco i wish this was over i can barely even type anthing #standoff,3452
+20:36:56,im sick im tired just wan to run out of here!,3468
+20:38:02,rt @truccotrucco why is this taking so long? im starting to feel sick #standoff,3481
+20:40:00,just poked my head up looks like hundred of people outside #standoff,3503
+ 

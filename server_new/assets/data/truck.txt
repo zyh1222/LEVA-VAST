@@ -1,0 +1,43 @@
+,message,ID
+17:24:00,i thought there was supposed to be a taco truck here,318
+18:42:10,abila fire department has dispatched two fire trucks to the dancing?dolphin apartments at?achilleos & madeg #afd?,1150
+87,i think the dancin dolphin is on fire!,1151
+88,FIRE/MEDICS NEEDED-FIRE TRUCKS #41 AND #57 DISPATCHED TO FIRE,1155
+18:42:10,fire/medics needed-fire trucks #41 and #57 dispatched to fire,1155
+18:45:00,staff reporter en route to fire at madeg. reports of fire trucks on site. #hi,1212
+18:45:00,fire trucks are arriving at the dancing dolphin #abilafire,1214
+95,Fire trucks are arriving at the dancing dolphin #abilaFire,1214
+18:46:00,rt @homelandilluminations staff reporter en route to fire at madeg. reports of fire trucks on site. #hi,1261
+18:46:10,rt @abilafiredept abila fire department has dispatched two fire trucks to the dancing?dolphin apartments at?achilleos & madeg #afd?,1272
+18:47:00,rt @dangermice fire trucks are arriving at the dancing dolphin #abilafire,1296
+18:47:09,abila fire department has dispatched an additional fire truck to dancing dolphin apartment fire #afd,1316
+18:47:09,fire/medics needed-fire truck #23 dispatched to fire,1320
+100,FIRE/MEDICS NEEDED-FIRE TRUCK #23 DISPATCHED TO FIRE,1320
+18:47:19,a third?fire truck has been dispatched to the fire #abilapost,1327
+18:47:59,pulled 14 hour shift last night - have to go in again at midnight. so what happens? fire trucks screaming down the street. #norest,1345
+18:51:59,rt @jenny90210 pulled 14 hour shift last night - have to go in again at midnight. so what happens? fire trucks screaming down the street. #norest,1434
+18:52:00,abila fire department fire truck #23 has arrived at dancing dolphin apartment #afd,1436
+18:52:19,third fire truck has arrived on the scene #abilapost,1449
+113,Oh man they are evacuating the nearby buildings #abilafire,1524
+18:56:00,rt @abilafiredept abila fire department fire truck #23 has arrived at dancing dolphin apartment #afd,1532
+18:56:19,rt @abilapost third fire truck has arrived on the scene #abilapost,1546
+19:10:00,more fire trucks at scene.  officials report fire is not under control. #hi,1757
+19:10:00,abila fire department trucks 12 & 30 have arrived?at the dancing dolphin fire to relieve trucks 41 and 57 #afd?,1759
+19:13:00,rt @abilafiredept abila fire department trucks 12 & 30 have arrived?at the dancing dolphin fire to relieve trucks 41 and 57 #afd?,1798
+127,Wow - more police #abilafire,1829
+19:20:00,2 fire trucks have arrived with fresh fire figthers to replace the weary early arrivals #afd #heroes #abilapost,1892
+19:20:00,additional fire trucks arrive. fire still out of control. #hi,1893
+19:20:00,more fire trucks are arriving this is really bad,1895
+132,More fire trucks are arriving this is really bad,1895
+19:21:00,rt @abilapost 2 fire trucks have arrived with fresh fire figthers to replace the weary early arrivals #afd #heroes #abilapost,1916
+19:21:00,rt @homelandilluminations additional fire trucks arrive. fire still out of control. #hi,1917
+19:21:00,rt @dangermice more fire trucks are arriving this is really bad,1919
+19:21:01,abila police department reports a bicyclist has been struck on the 500 block of schaber between eira and edessis #apd,1923
+19:22:01,rt @abilapolicedepartment abila police department reports a bicyclist has been struck on the 500 block of schaber between eira and edessis #apd,1947
+193,OMG Abila Post says a cop got shot! what is happening??????,2332
+199,FIRE/MEDICS NEEDED-AMBULANCE DISPATCHED,2358
+19:55:00,big official truck shows up.  not sure who these guys are  #tag,2729
+19:58:00,rt @megaman big official truck shows up.  not sure who these guys are  #tag,2783
+237,They just put him in an ambulance #hurtfirefighter #abilafire,2900
+20:35:09,#afd is requesting additional trucks to @dancingdolphin fire #abilapost,3439
+20:36:09,rt @abilapost #afd is requesting additional trucks to @dancingdolphin fire #abilapost,3459
